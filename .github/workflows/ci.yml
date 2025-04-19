@@ -1,5 +1,5 @@
 name: ci 
-run-name: Deploy to GitHub Pages
+run-name: Shipping to GitHub Pages
 on:
   push:
     branches:
