@@ -1,7 +1,14 @@
+# Project information
 site_name: ubergoonz
-site_description: Documentation for Ubergoonz
-site_author: Ubergoonz
+site_author: ubergoonz
 site_url: https://ubergoonz.github.io/docs-blog/
+site_description: >-
+  Documentation and blog by Ubergoonz
+
+# Repository
+repo_name: ubergoonz/docs-blog
+repo_url: https://github/ubergoonz/docs-blog/
+
 theme:
   name: material
   palette:
