@@ -1,0 +1,40 @@
+site_name: Ubergoonz
+site_description: Documentation for Ubergoonz
+site_author: Ubergoonz
+site_url: https://ubergoonz.github.io/docs-blog/
+theme:
+  name: material
+  palette:
+  # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: lime
+      accent: deep orange
+      text: white
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: lime
+      accent: deep orange
+      text: black
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: lime
+      accent: deep orange
+      text: white
+nav:
+  - Home: index.md
+  - About: about.md
+  - Guides:
+      - Getting Started: guides/getting-started.md
