@@ -65,8 +65,7 @@ theme:
 
 plugins:
   - blog:
-      blog_dir: blog
-      authors_file: "{blog}/.authors.yml"
+    blog_dir: blog
   - tags:
       tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
@@ -74,7 +73,6 @@ plugins:
       tags_slugify_separator: _
       tags_slugify_format: "tag:{slug}"
   - search
-  - meta
 
 # Extra
 extra:
