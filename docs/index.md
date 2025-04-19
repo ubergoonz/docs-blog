@@ -1,7 +1,5 @@
 # ubergoonz
 
-Welcome to the Material for MkDocs workspace! This documentation provides an overview of the project and guides you through its features and usage.
-
 ## Overview
 
 This project is designed to help you create beautiful and responsive documentation using MkDocs with the Material theme. It aims to provide a seamless experience for both developers and users.
