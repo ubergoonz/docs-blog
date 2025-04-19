@@ -11,6 +11,7 @@ repo_url: https://github/ubergoonz/docs-blog/
 
 theme:
   name: material
+
   palette:
   # Palette toggle for automatic mode
     - media: "(prefers-color-scheme: dark)"
@@ -40,8 +41,13 @@ theme:
       primary: lime
       accent: deep orange
       text: white
+
+  icon:
+    logo: material/rocket-launch
+    repo: material/github
+  
+  features:
+    - navigation.expand
+
 nav:
   - Home: index.md
-  - About: about.md
-  - Guides:
-      - Getting Started: guides/getting-started.md
