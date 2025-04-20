@@ -5,5 +5,6 @@
 # Activate the python virtual environment
 source .venv/bin/activate
 # Start the application
+source _scripts/.env
 
 mkdocs serve

@@ -25,7 +25,7 @@ theme:
         name: Switch to light mode
       primary: lime
       accent: deep orange
-      text: white
+#      text: white
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -34,7 +34,7 @@ theme:
         name: Switch to dark mode
       primary: lime
       accent: deep orange
-      text: black
+#      text: black
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -43,7 +43,7 @@ theme:
         name: Switch to system preference
       primary: lime
       accent: deep orange
-      text: white
+#      text: white
   icon:
     logo: material/rocket-launch
     repo: material/github
@@ -52,6 +52,7 @@ theme:
     - navigation.footer
     - navigation.tabs
     - navigation.top
+    - navigation.indexes
     - navigation.sections
     - navigation.tracking
     - content.code.annotate
@@ -76,10 +77,24 @@ plugins:
 
 # Extra
 extra:
-  extra:
   analytics:
     provider: google
-    property: G-BT4MTGNS3S
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  feedback:
+    title: Was this page helpful?
+    ratings:
+      - icon: material/thumb-up-outline
+        name: Yes - This page was helpful
+        data: 1
+        note: >-
+          Thank you for your feedback! If you have any questions or
+          suggestions, please feel free to reach out to us.
+      - icon: material/thumb-down-outline
+        name: No - This page could be improved
+        data: 0
+        note: >-
+          Thank you for your feedback! If you have any questions or
+          suggestions, please feel free to reach out to us.
   consent:
     title: Cookie consent
     description: >- 
@@ -87,6 +102,10 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+    actions:
+      - accept
+      - reject
+      - manage
   social:
     - icon: material/github
       link: https://github.com/ubergoonz/
