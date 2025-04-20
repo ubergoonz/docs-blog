@@ -1,7 +1,7 @@
 # Project information
 site_name: ubergoonz
-site_author: ubergoonz
 site_url: https://ubergoonz.github.io/docs-blog/
+site_author: ubergoonz
 site_description: >-
   Documentation and blog by ubergoonz on technology, programming, and
   software development. This site is built with MkDocs and Material for MkDocs.
@@ -48,6 +48,10 @@ theme:
   icon:
     logo: material/rocket-launch
     repo: material/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+
   features:
     - navigation.expand
     - navigation.footer
@@ -76,8 +80,11 @@ plugins:
           case: lower
       tags_slugify_separator: _
       tags_slugify_format: "tag:{slug}"
-  - search
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - macros
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
 
 # Extra
 extra:
@@ -117,9 +124,57 @@ extra:
       link: https://www.linkedin.com/in/ubergoonz/
     - icon: material/gitlab
       link: https://gitlab.com/ubergoonz/
+  github_token: !ENV GITHUB_TOKEN
   
 extra_javascript:
   - assets/javascripts/consent.js
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: ubergoonz
+      repo: docs-blog
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
 nav:
   - Home: index.md

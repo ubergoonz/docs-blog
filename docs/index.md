@@ -19,3 +19,21 @@ Hello!!!!
 
 This site is under construction
 
+## Test Mermaid
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
+
+## Test Plantuml
+
+```puml
+@startuml
+Bob -> Alice : hello
+@enduml
+```
