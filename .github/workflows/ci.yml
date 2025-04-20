@@ -24,8 +24,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip 
           pip install -r requirements.txt
-          pip install mkdocs-material mkdocs-blogging-plugin mkdocs-tags-plugin pymdown-extensions
-          pip install pymdown-extensions mkdocs-material-extensions mkdocs-material-extensions
+          pip install mkdocs-material mkdocs-blogging-plugin 
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - uses: actions/cache@v4
         with:
