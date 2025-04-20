@@ -27,6 +27,7 @@ jobs:
           path: .cache 
           restore-keys: |
             mkdocs-material-
+      - run: pip install setuptools  # Ensure setuptools is installed
       - run: pip install mkdocs-material 
       - run: pip install -r requirements.txt
       - run: mkdocs --version
