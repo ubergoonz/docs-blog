@@ -9,7 +9,6 @@ authors:
 tags:
   - Hello
   - World
-comments: true
 ---
 
 # Hello world!

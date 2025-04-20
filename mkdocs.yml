@@ -11,7 +11,7 @@ repo_url: https://github/ubergoonz/docs-blog/
 
 # Copyright
 copyright: >
-  Copyright &copy; 2025 Ubergoonz (Leslie Wang)
+  Copyright &copy; 2025 Ubergoonz (Leslie Wang) <br>
   <a href="#__consent">Change cookie settings</a>
 
 theme:
@@ -44,11 +44,9 @@ theme:
       primary: lime
       accent: deep orange
       text: white
-
   icon:
     logo: material/rocket-launch
     repo: material/github
-  
   features:
     - navigation.expand
     - navigation.footer
@@ -78,6 +76,10 @@ plugins:
 
 # Extra
 extra:
+  extra:
+  analytics:
+    provider: google
+    property: G-BT4MTGNS3S
   consent:
     title: Cookie consent
     description: >- 
@@ -85,6 +87,13 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+  social:
+    - icon: material/github
+      link: https://github.com/ubergoonz/
+    - icon: material/linkedin
+      link: https://www.linkedin.com/in/ubergoonz/
+    - icon: material/gitlab
+      link: https://gitlab.com/ubergoonz/
   
 extra_javascript:
   - assets/javascripts/consent.js
