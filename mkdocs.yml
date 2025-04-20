@@ -47,7 +47,7 @@ theme:
 #      text: white
   icon:
     logo: material/rocket-launch
-    repo: material/github
+    repo: fontawesome/brands/github-alt
   font:
     text: Roboto
     code: Roboto Mono
