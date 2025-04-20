@@ -19,5 +19,6 @@ Gemfile.lock
 .cache
 .venv
 .env
+_scripts/.env
 .cache
 
