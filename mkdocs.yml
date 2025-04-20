@@ -3,7 +3,7 @@ site_name: ubergoonz
 site_author: ubergoonz
 site_url: https://ubergoonz.github.io/docs-blog/
 site_description: >-
-  Documentation and blog by Ubergoonz
+  Documentation and blog by ubergoonz
 
 # Repository
 repo_name: ubergoonz/docs-blog
@@ -74,6 +74,7 @@ plugins:
       tags_slugify_separator: _
       tags_slugify_format: "tag:{slug}"
   - search
+  - macros
 
 # Extra
 extra:
