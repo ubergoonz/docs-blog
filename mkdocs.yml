@@ -63,6 +63,7 @@ theme:
     - toc.follow
 
 plugins:
+  - meta
   - blog:
       blog_dir: blog
       authors_file: "{blog}/.authors.yml"
@@ -73,7 +74,6 @@ plugins:
       tags_slugify_separator: _
       tags_slugify_format: "tag:{slug}"
   - search
-  - meta
 
 # Extra
 extra:
