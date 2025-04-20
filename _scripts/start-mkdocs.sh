@@ -1,10 +1,9 @@
 #!/bin/bash
-# This script is used to start the application in development mode.
+# This script is used to start the application in local development mode.
 # Usage: ./_scripts/start.sh
 
 # Activate the python virtual environment
 source .venv/bin/activate
 # Start the application
-source _scripts/.env
 
 mkdocs serve
