@@ -1,9 +1,6 @@
 ---
-hide:
-  - navigation
-  - toc
-comments: true
----
+title: Blog
+description: Latest posts
 
-# Blog
+---
 

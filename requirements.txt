@@ -37,3 +37,4 @@ backrefs~=5.7.post1
 requests~=2.26
 mkdocs-macros-plugin~=0.7
 mkdocs-puml~=2.3
+mkdocs-git-revision-date-localized-plugin

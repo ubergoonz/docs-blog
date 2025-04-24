@@ -3,12 +3,12 @@ site_name: ubergoonz
 site_url: https://ubergoonz.github.io/docs-blog/
 site_author: ubergoonz
 site_description: >-
-  Documentation and blog by ubergoonz on technology, programming, and
-  software development. This site is built with MkDocs and Material for MkDocs.
+  Documentation and blog by ubergoonz on technology, software development, AI Augmented Development.
 
 # Repository
 repo_name: ubergoonz/docs-blog
 repo_url: https://github.com/ubergoonz/docs-blog
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: >
@@ -53,12 +53,14 @@ theme:
     code: Roboto Mono
 
   features:
-    - navigation.expand
+#    - navigation.expand
+    - navigation.path
     - navigation.footer
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes
-    - navigation.sections
+#    - navigation.sections
     - navigation.tracking
     - content.code.annotate
     - content.code.copy
@@ -67,13 +69,27 @@ theme:
     - search.suggest
     - toc.follow
 
-
-
 plugins:
   - meta
   - blog:
       blog_dir: blog
       authors_file: "{blog}/.authors.yml"
+      post_date_format: full
+      blog_toc: false
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      post_slugify_separator: _
+      post_url_format: "{slug}"
+      post_url_date_format: yyyy/MM
+      post_readtime_words_per_minute: 300
+      archive: true
+      archive_name: Archive
+      archive_url_date_format: 
+      archive_date_format: yyyy
+      archive_toc: true
+      categories: true
+      categories_name: Categories
   - tags:
       tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
@@ -85,6 +101,15 @@ plugins:
   - macros
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
+      theme:
+        light: material/indigo-light
+        dark: material/indigo-dark
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+      locale: en
+      timezone: UTC
+      enable_git_follow: true
 
 # Extra
 extra:
@@ -125,9 +150,17 @@ extra:
     - icon: material/gitlab
       link: https://gitlab.com/ubergoonz/
   github_token: !ENV GITHUB_TOKEN
+  blog:
+    dir: blog
+    author: Leslie Wang
+    author_image: https://github.com/ubergoonz.png
+    words_read_per_minute: 300
+    list_length: 25
+    extended_preview: true
   
 extra_javascript:
   - assets/javascripts/consent.js
+
 # Extensions
 markdown_extensions:
   - abbr
@@ -177,5 +210,52 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - Home: index.md
-  - Blog: blog/index.md
+  - 🏠 Home: 
+    - index.md
+    - About: about/index.md
+  - 📚 Docunmentations:
+      - documentations/index.md
+      - Automation:
+        - Overview: documentations/automation/index.md
+        - Explanation: documentations/automation/explanation/index.md
+        - How to: documentations/automation/how-to/index.md
+        - References: documentations/automation/reference/index.md
+        - Tutorials: documentations/automation/tutorial/index.md
+      - GitHub Copilot:
+        - Overview: documentations/github-copilot/index.md
+        - Explanation: documentations/github-copilot/explanation/index.md
+        - How to: documentations/github-copilot/how-to/index.md
+        - References: documentations/github-copilot/reference/index.md
+        - Tutorials: documentations/github-copilot/tutorial/index.md
+      - Markdown:
+        - Overview: documentations/markdown/index.md
+        - Explanation: documentations/markdown/explanation/index.md
+        - How to: documentations/markdown/how-to/index.md
+        - References: documentations/markdown/reference/index.md
+        - Tutorials: documentations/markdown/tutorial/index.md
+      - GitLab:
+        - Overview: documentations/gitlab/index.md
+        - Explanation: documentations/gitlab/explanation/index.md
+        - How to: documentations/gitlab/how-to/index.md
+        - References: documentations/gitlab/reference/index.md
+        - Tutorials: documentations/gitlab/tutorial/index.md
+      - MkDocs:
+          - Overview: documentations/mkdocs/index.md
+          - Explanation: documentations/mkdocs/explanation/index.md
+          - How to: documentations/mkdocs/how-to/index.md
+          - References: documentations/mkdocs/reference/index.md
+          - Tutorials: documentations/mkdocs/tutorial/index.md
+      - "*nix": 
+        - Overview: documentations/nix/index.md
+        - Explanation: documentations/nix/explanation/index.md
+        - How to: documentations/nix/how-to/index.md
+        - References: documentations/nix/reference/index.md
+        - Tutorials: documentations/nix/tutorial/index.md
+      - PlantUML: 
+        - Overview: documentations/plantuml/index.md
+        - Explanation: documentations/plantuml/explanation/index.md
+        - How to: documentations/plantuml/how-to/index.md
+        - References: documentations/plantuml/reference/index.md
+        - Tutorials: documentations/plantuml/tutorial/index.md
+  - 📝 Blog:
+      - Blog Index: blog/index.md

@@ -10,6 +10,8 @@ tags:
   - Hello
   - World
 feedback: true
+title: "2nd post"
+description: "again hello world"
 ---
 
 # Hello world again!
@@ -18,7 +20,8 @@ feedback: true
 dkslkdsl;dk ;ldksl;kdsl;
 
 dksl;skdl;s ., mdk.sjklds
-<!-- more -->
+
+<p hidden>#more</p>
 
 dk;lskdl;sdkl;sd
 ldsl;k

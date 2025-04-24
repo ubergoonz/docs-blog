@@ -1,11 +1,13 @@
 ---
 hide:
-  - navigation
-  - toc
+#  - navigation
+#  - toc
   - footer
 ---
 
-# Welcome to {{ config.site_name }}
+# :material-home: Home
+
+Welcome to {{ config.site_name }}
 
 > {{ config.site_description }}
 
