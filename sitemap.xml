@@ -2,30 +2,198 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ubergoonz.github.io/docs-blog/</loc>
-         <lastmod>2025-04-20</lastmod>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/about/</loc>
+         <lastmod>2025-04-24</lastmod>
     </url>
     <url>
          <loc>https://ubergoonz.github.io/docs-blog/blog/</loc>
-         <lastmod>2025-04-20</lastmod>
+         <lastmod>2025-04-24</lastmod>
     </url>
     <url>
-         <loc>https://ubergoonz.github.io/docs-blog/blog/2025/04/20/hello-world-again/</loc>
-         <lastmod>2025-04-20</lastmod>
+         <loc>https://ubergoonz.github.io/docs-blog/blog/2nd_post/</loc>
+         <lastmod>2025-04-24</lastmod>
     </url>
     <url>
-         <loc>https://ubergoonz.github.io/docs-blog/blog/2025/04/19/hello-world/</loc>
-         <lastmod>2025-04-20</lastmod>
+         <loc>https://ubergoonz.github.io/docs-blog/blog/hello_world/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/_template/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/_template/explanation/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/_template/how-to/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/_template/reference/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/_template/tutorial/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/automation/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/automation/explanation/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/automation/how-to/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/automation/reference/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/automation/tutorial/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/github-copilot/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/github-copilot/explanation/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/github-copilot/how-to/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/github-copilot/reference/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/github-copilot/tutorial/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/gitlab/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/gitlab/explanation/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/gitlab/how-to/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/gitlab/reference/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/gitlab/tutorial/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/markdown/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/markdown/explanation/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/markdown/how-to/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/markdown/reference/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/markdown/tutorial/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/mkdocs/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/mkdocs/explanation/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/mkdocs/how-to/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/mkdocs/reference/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/mkdocs/tutorial/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/nix/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/nix/explanation/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/nix/how-to/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/nix/reference/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/nix/tutorial/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/plantuml/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/plantuml/explanation/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/plantuml/how-to/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/plantuml/reference/</loc>
+         <lastmod>2025-04-24</lastmod>
+    </url>
+    <url>
+         <loc>https://ubergoonz.github.io/docs-blog/documentations/plantuml/tutorial/</loc>
+         <lastmod>2025-04-24</lastmod>
     </url>
     <url>
          <loc>https://ubergoonz.github.io/docs-blog/blog/archive/2025/</loc>
-         <lastmod>2025-04-20</lastmod>
+         <lastmod>2025-04-24</lastmod>
     </url>
     <url>
          <loc>https://ubergoonz.github.io/docs-blog/blog/category/hello/</loc>
-         <lastmod>2025-04-20</lastmod>
+         <lastmod>2025-04-24</lastmod>
     </url>
     <url>
          <loc>https://ubergoonz.github.io/docs-blog/blog/category/world/</loc>
-         <lastmod>2025-04-20</lastmod>
+         <lastmod>2025-04-24</lastmod>
     </url>
 </urlset>
