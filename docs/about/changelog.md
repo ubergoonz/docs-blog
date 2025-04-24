@@ -13,3 +13,6 @@ icon: simple/keepachangelog
     **Audience:** Primarily for developers, technical users, and contributors.
     
     **Format:** Typically concise and technical, often following a standardized format like [Keep a Changelog](https://keepachangelog.com/){target="_blank"} :octicons-link-external-16:.
+
+On ths page, you will find infomration about changes does on this website.
+
