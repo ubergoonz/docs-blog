@@ -213,6 +213,8 @@ nav:
   - 🏠 Home: 
     - index.md
     - About: about/index.md
+    - Navigation: about/navigation.md
+    - Changelog: about/changelog.md
   - 📚 Docunmentations:
       - documentations/index.md
       - Automation:
@@ -239,12 +241,12 @@ nav:
         - How to: documentations/gitlab/how-to/index.md
         - References: documentations/gitlab/reference/index.md
         - Tutorials: documentations/gitlab/tutorial/index.md
-      - MkDocs:
-          - Overview: documentations/mkdocs/index.md
-          - Explanation: documentations/mkdocs/explanation/index.md
-          - How to: documentations/mkdocs/how-to/index.md
-          - References: documentations/mkdocs/reference/index.md
-          - Tutorials: documentations/mkdocs/tutorial/index.md
+      - Material MkDocs:
+          - Overview: documentations/material-mkdocs/index.md
+          - Explanation: documentations/material-mkdocs/explanation/index.md
+          - How to: documentations/material-mkdocs/how-to/index.md
+          - References: documentations/material-mkdocs/reference/index.md
+          - Tutorials: documentations/material-mkdocs/tutorial/index.md
       - "*nix": 
         - Overview: documentations/nix/index.md
         - Explanation: documentations/nix/explanation/index.md
@@ -257,5 +259,12 @@ nav:
         - How to: documentations/plantuml/how-to/index.md
         - References: documentations/plantuml/reference/index.md
         - Tutorials: documentations/plantuml/tutorial/index.md
+      - Visual Studio Code: 
+        - Overview: documentations/vscode/index.md
+        - Explanation: documentations/vscode/explanation/index.md
+        - How to: documentations/vscode/how-to/index.md
+        - References: documentations/vscode/reference/index.md
+        - Tutorials: documentations/vscode/tutorial/index.md
   - 📝 Blog:
-      - Blog Index: blog/index.md
+      - blog/index.md
+      - Tags: blog/tags.md

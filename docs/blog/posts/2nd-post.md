@@ -7,7 +7,7 @@ categories:
 authors: 
     - ubergoonz
 tags:
-  - Hello
+  - evil-tag
   - World
 feedback: true
 title: "2nd post"
