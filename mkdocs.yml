@@ -12,7 +12,7 @@ edit_uri: edit/main/docs/
 
 # Copyright
 copyright: >
-  Copyright &copy; 2025 Ubergoonz (Leslie Wang) <br>
+  <a href="about/copyright/">Copyright</a> &copy; 2025 - <script>document.write(new Date().getFullYear())</script> ubergoonz docs-blog <b>All Rights Reserved</b><br>
   <a href="#__consent">Change cookie settings</a>
 
 theme:
@@ -24,30 +24,39 @@ theme:
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
-      primary: lime
-      accent: deep orange
-#      text: white
+      primary: deep orange
+      accent: lime
+      scheme: slate
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-      primary: lime
-      accent: deep orange
-#      text: black
+      primary: cyan
+      accent: amber
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-      primary: lime
-      accent: deep orange
-#      text: white
+      primary: indigo
+      accent: pink
+  favicon: assets/favicon.png
+  logo: assets/favicon.png
   icon:
-    logo: material/rocket-launch
     repo: fontawesome/brands/github-alt
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    tag:
+      copilot: octicons/copilot-16
+      gitlab: simple/gitlab
+      md: material/language-markdown-outline
+      automation: material/auto-mode
+      nix: octicons/terminal-16
+      plantuml: simple/uml
+      vscode: material/microsoft-visual-studio-code
   font:
     text: Roboto
     code: Roboto Mono
@@ -104,12 +113,28 @@ plugins:
       theme:
         light: material/indigo-light
         dark: material/indigo-dark
+      interaction:
+        enabled: true
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
       locale: en
       timezone: UTC
       enable_git_follow: true
+  - glightbox: # https://github.com/blueswen/mkdocs-glightbox#usage
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: auto
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
 
 # Extra
 extra:
@@ -157,7 +182,15 @@ extra:
     words_read_per_minute: 300
     list_length: 25
     extended_preview: true
-  
+  tags:
+    github-copilot: copilot
+    gitlab: gitlab
+    markdown: md
+    automation: automation
+    nix: nix
+    plantuml: plantuml
+    vscode: vscode
+
 extra_javascript:
   - assets/javascripts/consent.js
 
@@ -193,7 +226,9 @@ markdown_extensions:
       repo: docs-blog
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      check_paths: true
+      base_path: ["docs"] # this is needed to make it easier to linking pathsrelative to the mkdocs root
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -208,12 +243,16 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - pymdownx.blocks.caption:
 
 nav:
   - 🏠 Home: 
     - index.md
     - About: about/index.md
     - Navigation: about/navigation.md
+    - Site Architecture: about/site-architecture.md
+    - Copyright: about/copyright.md
+    - Disclaimer: about/disclaimer.md
     - Changelog: about/changelog.md
   - 📚 Docunmentations:
       - documentations/index.md

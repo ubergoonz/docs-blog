@@ -7,7 +7,9 @@ hide:
 
 # :material-home: Home
 
-Welcome to {{ config.site_name }}
+![Home cow](assets/images/favicon-32x32.png)
+
+Welcome to {{ config.site_name }} u
 
 > {{ config.site_description }}
 

@@ -14,5 +14,4 @@ icon: simple/keepachangelog
     
     **Format:** Typically concise and technical, often following a standardized format like [Keep a Changelog](https://keepachangelog.com/){target="_blank"} :octicons-link-external-16:.
 
-On ths page, you will find infomration about changes does on this website.
-
+On ths page, you will find infomration about changes on this website.

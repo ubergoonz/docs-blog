@@ -1,0 +1,30 @@
+@startwbs
+
++ Home
+ + About
+  +_ Navigation
+  +_ Copyright
+  +_ Disclaimer
+  +_ Changelog
+** Documentations
+  + Automation
+   +_ Explanation
+   +_ How to
+   +_ References
+   +_ Tutorial
+  + GitHub Copilot
+  + Markdown
+  + GitLab
+  + Material MkDocs
+  + nix
+  + Plantuml
+  + Visual Studio Code
+** Blog
+  +_ Tags
+  + Archive
+   + YYYY
+    +_ posts
+  + Catogeries
+   +_ posts
+
+@endwbs
