@@ -1,12 +1,12 @@
 @startwbs
 
-+ Home
- + About
++ [[../../ Home]]
+ + [[../ About]]
   +_ Navigation
   +_ Copyright
   +_ Disclaimer
   +_ Changelog
-** Documentations
+** [[../../documentations/ Documentations]]
   + Automation
    +_ Explanation
    +_ How to
@@ -19,7 +19,7 @@
   + nix
   + Plantuml
   + Visual Studio Code
-** Blog
+** [[../../blog/ Blog]]
   +_ Tags
   + Archive
    + YYYY

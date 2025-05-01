@@ -1,5 +1,7 @@
 ---
 icon: octicons/terminal-16
+tags:
+    - nix
 ---
 
 # :octicons-terminal-16: *nix

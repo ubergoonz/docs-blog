@@ -8,20 +8,18 @@ icon: material/compass
 
 > On this page, you will learn how to navigate to various sections on this website to look for contents
 
-This website is intended for myself and any technologist who are keen to learn and share knowledge.
-
 ## Site Navigation Map
 
 ```puml
 @startwbs
 
-+ Home
- + About
++ [[../../ Home]]
+ + [[../ About]]
   +_ Navigation
   +_ Copyright
   +_ Disclaimer
   +_ Changelog
-** Documentations
+** [[../../documentations/ Documentations]]
   + Automation
    +_ Explanation
    +_ How to
@@ -34,7 +32,7 @@ This website is intended for myself and any technologist who are keen to learn a
   + nix
   + Plantuml
   + Visual Studio Code
-** Blog
+** [[../../blog/ Blog]]
   +_ Tags
   + Archive
    + YYYY

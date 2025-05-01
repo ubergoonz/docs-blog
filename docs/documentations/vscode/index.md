@@ -1,6 +1,7 @@
 ---
 icon: material/microsoft-visual-studio-code
-tag: vscode
+tags:
+    - vscode
 ---
 
 # :material-microsoft-visual-studio-code: Visual Studio Code

@@ -4,6 +4,6 @@ icon: material/tag-text
 comment: false
 ---
 
-# :material-tag-text: Tags
+# :material-tag-text: Blog Tags
 
-<!-- material/tags -->
+<!-- material/tags { scope: true } -->

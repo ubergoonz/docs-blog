@@ -3,13 +3,14 @@ hide:
 #  - navigation
 #  - toc
   - footer
+icon: material/home
 ---
 
 # :material-home: Home
 
 ![Home cow](assets/images/favicon-32x32.png)
 
-Welcome to {{ config.site_name }} u
+Welcome to {{ config.site_name }}
 
 > {{ config.site_description }}
 
@@ -17,27 +18,8 @@ Welcome to {{ config.site_name }} u
   🚧 This site is under construction! 🚧
 </marquee>
 
-![Under Construction](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)
-
 Hello!!!!
 
 This site is under construction
 
-## Test Mermaid
-
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
-
-## Test Plantuml
-
-```puml
-@startuml
-Bob -> Alice : hello
-@enduml
-```
+![Under Construction](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)

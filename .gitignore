@@ -21,4 +21,5 @@ Gemfile.lock
 .env
 _scripts/.env
 .cache
+__pycache__
 

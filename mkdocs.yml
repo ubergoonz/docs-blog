@@ -4,6 +4,8 @@ site_url: https://ubergoonz.github.io/docs-blog/
 site_author: ubergoonz
 site_description: >-
   Documentation and blog by ubergoonz on technology, software development, AI Augmented Development.
+  <br>
+  This website is intended for myself and any technologist who are keen to learn and share knowledge.
 
 # Repository
 repo_name: ubergoonz/docs-blog
@@ -57,6 +59,9 @@ theme:
       nix: octicons/terminal-16
       plantuml: simple/uml
       vscode: material/microsoft-visual-studio-code
+      documentation: material/bookshelf
+      materialmkdocs: simple/materialformkdocs
+    annotation: material/crosshairs-question
   font:
     text: Roboto
     code: Roboto Mono
@@ -69,6 +74,8 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
 #    - navigation.sections
     - navigation.tracking
     - content.code.annotate
@@ -105,6 +112,9 @@ plugins:
           case: lower
       tags_slugify_separator: _
       tags_slugify_format: "tag:{slug}"
+      listings_map:
+        custom-id:
+          scope: false
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - macros
@@ -183,16 +193,26 @@ extra:
     list_length: 25
     extended_preview: true
   tags:
-    github-copilot: copilot
+    copilot: copilot
     gitlab: gitlab
     markdown: md
     automation: automation
     nix: nix
     plantuml: plantuml
     vscode: vscode
+    documentation: documentation
+    materialmkdocs: materialmkdocs
+  status:
+    deprecated: WIll be removed soon
+    new: Recently added
+    happy: Happy
+    hot: hot
 
 extra_javascript:
   - assets/javascripts/consent.js
+
+extra_css:
+  - assets/stylesheets/extra.css
 
 # Extensions
 markdown_extensions:
@@ -246,16 +266,19 @@ markdown_extensions:
   - pymdownx.blocks.caption:
 
 nav:
-  - 🏠 Home: 
+  - Home: 
     - index.md
-    - About: about/index.md
-    - Navigation: about/navigation.md
+  - About:
+    - about/index.md
     - Site Architecture: about/site-architecture.md
+    - Site Navigation: about/site-navigation.md
+    - Page Navigation: about/page-navigation.md
     - Copyright: about/copyright.md
     - Disclaimer: about/disclaimer.md
     - Changelog: about/changelog.md
-  - 📚 Docunmentations:
+  - Docunmentations:
       - documentations/index.md
+      - Tags: documentations/tags.md
       - Automation:
         - Overview: documentations/automation/index.md
         - Explanation: documentations/automation/explanation/index.md
@@ -304,6 +327,6 @@ nav:
         - How to: documentations/vscode/how-to/index.md
         - References: documentations/vscode/reference/index.md
         - Tutorials: documentations/vscode/tutorial/index.md
-  - 📝 Blog:
+  - Blog:
       - blog/index.md
       - Tags: blog/tags.md
