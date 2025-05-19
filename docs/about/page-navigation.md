@@ -8,7 +8,7 @@ subtitle: How to navigate the page
 
 ## Overview
 
-As this website is using :simple-materialformkdocs: Material for MkDocs to generate the pages, you will find it easy to navigate. 
+As this website is using :simple-materialformkdocs: Material for MkDocs to generate the pages, you will find it easy to navigate.
 
 In case you are not familiar with Material for MkDocs, you can find the [documentation :octicons-link-external-16:](https://squidfunk.github.io/mkdocs-material/){target="_blank"}.
 

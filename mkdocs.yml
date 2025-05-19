@@ -13,8 +13,11 @@ repo_url: https://github.com/ubergoonz/docs-blog
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: >
-  <a href="about/copyright/">Copyright</a> &copy; 2025 - <script>document.write(new Date().getFullYear())</script> ubergoonz docs-blog <b>All Rights Reserved</b><br>
+copyright: >-
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <a href="about/copyright/">Copyright</a> &copy; 2025 - <span id="year"></span> <b>All Rights Reserved</b><br>
   <a href="#__consent">Change cookie settings</a>
 
 theme:
