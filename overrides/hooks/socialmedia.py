@@ -61,7 +61,7 @@ def on_page_markdown(markdown, **kwargs):
 
 :octicons-copy-16: **Copy/paste and Share**
 
-<a href="javascript:void(0);" class="cp-share" data-message="{x_message}" title="Copy message to clipboard">
+<a href="javascript:void(0);" class="cp-share" data-message="{page_url}" title="Copy url to clipboard">
 :simple-xiaohongshu: :simple-notion: :material-microsoft-teams: :simple-zoom: :simple-slack: :simple-discord: :simple-reddit: :simple-stackoverflow:
 </a>
 </div>
