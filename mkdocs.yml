@@ -26,12 +26,12 @@ theme:
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
       primary: deep orange
       accent: lime
-      scheme: slate
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -47,7 +47,7 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
       primary: indigo
-      accent: pink
+      accent: lime
   favicon: assets/favicon.png
   logo: assets/favicon.png
   icon:
@@ -60,15 +60,19 @@ theme:
       md: material/language-markdown-outline
       automation: material/auto-mode
       nix: octicons/terminal-16
+      linux: octicons/terminal-16
+      unix: octicons/terminal-16
+      solaris: octicons/terminal-16
       plantuml: simple/uml
       vscode: material/microsoft-visual-studio-code
       documentation: material/bookshelf
       materialmkdocs: simple/materialformkdocs
+      ai-assisted-coding: material/robot-happy
+      ai-augmented-development: material/robot-happy
     annotation: material/crosshairs-question
   font:
     text: Roboto
     code: Roboto Mono
-
   features:
 #    - navigation.expand
     - navigation.path
@@ -87,6 +91,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
+    - announce.dismiss
 
 plugins:
   - meta
@@ -181,10 +186,10 @@ extra:
       - reject
       - manage
   social:
-    - icon: material/github
-      link: https://github.com/ubergoonz/
     - icon: material/linkedin
       link: https://www.linkedin.com/in/ubergoonz/
+    - icon: material/github
+      link: https://github.com/ubergoonz/
     - icon: material/gitlab
       link: https://gitlab.com/ubergoonz/
   github_token: !ENV GITHUB_TOKEN
@@ -201,16 +206,20 @@ extra:
     markdown: md
     automation: automation
     nix: nix
+    linux: linux
+    solaris: solaris
+    unix: unix
     plantuml: plantuml
     vscode: vscode
     documentation: documentation
     materialmkdocs: materialmkdocs
+    ai-assisted-coding: ai-assisted-coding
+    ai-augmented-development: ai-augmented-development
   status:
     deprecated: WIll be removed soon
     new: Recently added
     happy: Happy
     hot: hot
-
 extra_javascript:
   - assets/javascripts/consent.js
 
@@ -231,7 +240,10 @@ markdown_extensions:
       generic: true
   - pymdownx.betterem:
       smart_enable: all
+  - pymdownx.critic
   - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -241,13 +253,11 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.keys
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
       user: ubergoonz
       repo: docs-blog
-  - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
       check_paths: true
@@ -265,9 +275,7 @@ markdown_extensions:
           case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tilde
   - pymdownx.blocks.caption:
-
 nav:
   - Home: 
     - index.md
@@ -279,57 +287,58 @@ nav:
     - Copyright: about/copyright.md
     - Disclaimer: about/disclaimer.md
     - Changelog: about/changelog.md
+    - Manual of Me: about/manual-of-me.md
   - Docunmentations:
-      - documentations/index.md
-      - Tags: documentations/tags.md
+      - docs/index.md
+      - Tags: docs/tags.md
       - Automation:
-        - Overview: documentations/automation/index.md
-        - Explanation: documentations/automation/explanation/index.md
-        - How to: documentations/automation/how-to/index.md
-        - References: documentations/automation/reference/index.md
-        - Tutorials: documentations/automation/tutorial/index.md
+        - Overview: docs/automation/index.md
+        - Explanation: docs/automation/explanation/index.md
+        - How to: docs/automation/how-to/index.md
+        - References: docs/automation/reference/index.md
+        - Tutorials: docs/automation/tutorial/index.md
       - GitHub Copilot:
-        - Overview: documentations/github-copilot/index.md
-        - Explanation: documentations/github-copilot/explanation/index.md
-        - How to: documentations/github-copilot/how-to/index.md
-        - References: documentations/github-copilot/reference/index.md
-        - Tutorials: documentations/github-copilot/tutorial/index.md
+        - Overview: docs/github-copilot/index.md
+        - Explanation: docs/github-copilot/explanation/index.md
+        - How to: docs/github-copilot/how-to/index.md
+        - References: docs/github-copilot/reference/index.md
+        - Tutorials: docs/github-copilot/tutorial/index.md
       - Markdown:
-        - Overview: documentations/markdown/index.md
-        - Explanation: documentations/markdown/explanation/index.md
-        - How to: documentations/markdown/how-to/index.md
-        - References: documentations/markdown/reference/index.md
-        - Tutorials: documentations/markdown/tutorial/index.md
+        - Overview: docs/markdown/index.md
+        - Explanation: docs/markdown/explanation/index.md
+        - How to: docs/markdown/how-to/index.md
+        - References: docs/markdown/reference/index.md
+        - Tutorials: docs/markdown/tutorial/index.md
       - GitLab:
-        - Overview: documentations/gitlab/index.md
-        - Explanation: documentations/gitlab/explanation/index.md
-        - How to: documentations/gitlab/how-to/index.md
-        - References: documentations/gitlab/reference/index.md
-        - Tutorials: documentations/gitlab/tutorial/index.md
-      - Material MkDocs:
-          - Overview: documentations/material-mkdocs/index.md
-          - Explanation: documentations/material-mkdocs/explanation/index.md
-          - How to: documentations/material-mkdocs/how-to/index.md
-          - References: documentations/material-mkdocs/reference/index.md
-          - Tutorials: documentations/material-mkdocs/tutorial/index.md
+        - Overview: docs/gitlab/index.md
+        - Explanation: docs/gitlab/explanation/index.md
+        - How to: docs/gitlab/how-to/index.md
+        - References: docs/gitlab/reference/index.md
+        - Tutorials: docs/gitlab/tutorial/index.md
+      - Material for MkDocs:
+          - Overview: docs/material-mkdocs/index.md
+          - Explanation: docs/material-mkdocs/explanation/index.md
+          - How to: docs/material-mkdocs/how-to/index.md
+          - References: docs/material-mkdocs/reference/index.md
+          - Tutorials: docs/material-mkdocs/tutorial/index.md
       - "*nix": 
-        - Overview: documentations/nix/index.md
-        - Explanation: documentations/nix/explanation/index.md
-        - How to: documentations/nix/how-to/index.md
-        - References: documentations/nix/reference/index.md
-        - Tutorials: documentations/nix/tutorial/index.md
+        - Overview: docs/nix/index.md
+        - Explanation: docs/nix/explanation/index.md
+        - How to: docs/nix/how-to/index.md
+        - References: docs/nix/reference/index.md
+        - Tutorials: docs/nix/tutorial/index.md
       - PlantUML: 
-        - Overview: documentations/plantuml/index.md
-        - Explanation: documentations/plantuml/explanation/index.md
-        - How to: documentations/plantuml/how-to/index.md
-        - References: documentations/plantuml/reference/index.md
-        - Tutorials: documentations/plantuml/tutorial/index.md
+        - Overview: docs/plantuml/index.md
+        - Explanation: docs/plantuml/explanation/index.md
+        - How to: docs/plantuml/how-to/index.md
+        - References: docs/plantuml/reference/index.md
+        - Tutorials: docs/plantuml/tutorial/index.md
       - Visual Studio Code: 
-        - Overview: documentations/vscode/index.md
-        - Explanation: documentations/vscode/explanation/index.md
-        - How to: documentations/vscode/how-to/index.md
-        - References: documentations/vscode/reference/index.md
-        - Tutorials: documentations/vscode/tutorial/index.md
+        - Overview: docs/vscode/index.md
+        - Explanation: docs/vscode/explanation/index.md
+        - How to: docs/vscode/how-to/index.md
+        - References: docs/vscode/reference/index.md
+        - Tutorials: docs/vscode/tutorial/index.md
   - Blog:
       - blog/index.md
       - Tags: blog/tags.md

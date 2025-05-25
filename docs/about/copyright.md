@@ -4,7 +4,14 @@ icon: material/copyright
 
 # :material-copyright: Copyright
 
-:material-copyright: 2025 - {{ current_year }} ubergoonz docs-blog  **All Rights Reserved**
+{==
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+Copyright</a> &copy; 2025 - <span id="year"></span> <b>All Rights Reserved</b><br>
+
+==}
 
 Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/){target="_blank"} :octicons-link-external-16: .
 
