@@ -30,7 +30,6 @@ def on_page_markdown(markdown, **kwargs):
 
     <div style="text-align: center;" markdown="1">
 
-
     :octicons-share-android-16: **Share on Socials** 
 
     [ :simple-x: ]({x_intent}?text={page_title}&url={page_url}){{ :target="_blank" }} 
