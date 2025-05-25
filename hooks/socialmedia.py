@@ -10,6 +10,7 @@ notion_url = "https://www.notion.so/"
 onenote_url = "https://www.onenote.com/"
 wechat_url = "https://web.wechat.com/"
 xiaohongshu_url = "https://www.xiaohongshu.com/"
+line_sharer = "https://social-plugins.line.me/lineit/share?url="  # LINE share URL
 
 def on_page_markdown(markdown, **kwargs):
     page = kwargs['page']
@@ -22,8 +23,11 @@ def on_page_markdown(markdown, **kwargs):
     wa_text = urllib.parse.quote(f"{page.title}\n{page_url}")
     tg_text = urllib.parse.quote(page.title)
     tg_url = f"{tg_sharer}{urllib.parse.quote(page_url)}&text={tg_text}"
+    line_url = f"{line_sharer}{urllib.parse.quote(page_url)}"
 
     return markdown + dedent(f"""
+    ---
+
     <div style="text-align: center;" markdown="1">
 
 
@@ -32,15 +36,15 @@ def on_page_markdown(markdown, **kwargs):
     [ :simple-x: ]({x_intent}?text={page_title}&url={page_url}){{ :target="_blank" }} 
     [ :material-facebook: ]({fb_sharer}?u={page_url}){{ :target="_blank" }} 
     [ :material-linkedin: ]({linkedin_sharer}?url={page_url}){{ :target="_blank" }}
-
-    :octicons-share-android-16: **Share on others**
-
+    [ :simple-line: ]({line_url}){{ :target="_blank" }}
     [ :simple-whatsapp: ]({wa_sharer}{wa_text}){{ :target="_blank" }}
     [ :simple-telegram: ]({tg_url}){{ :target="_blank" }}
     [ :simple-wechat: ]({wechat_url}){{ :target="_blank" title="Copy post URL for WeChat" }}
     [ :simple-notion: ]({notion_url}){{ :target="_blank" title="Copy post URL for Notion" }}
     [ :material-microsoft-onenote: ]({onenote_url}){{ :target="_blank" title="Copy post URL for OneNote" }}
     [ :simple-xiaohongshu: ]({xiaohongshu_url}){{ :target="_blank" title="Copy post URL for Xiaohongshu" }}
+
+    :octicons-share-android-16: **Share on others**
     
     [Copy Link :material-share-all:](javascript:void(0); "Copy post URL")
     [Add to Bookmark :material-bookmark:](javascript:void(0); "Add to Bookmark")

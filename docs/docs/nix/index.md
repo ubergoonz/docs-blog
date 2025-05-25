@@ -2,12 +2,28 @@
 icon: octicons/terminal-16
 tags:
     - nix
+    - unix
     - solaris
     - linux
-    - unix
 ---
 
 # :octicons-terminal-16: *nix
+
+???+ abstract
+
+    I started using my first computer in 1980s on a [PC-XT](https://en.wikipedia.org/wiki/IBM_Personal_Computer_XT){:target="_blank"} (1) [compatiable](https://en.wikipedia.org/wiki/IBM_PC_compatible){:target="_blank"}(2) running [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS){:target="_blank"}(3). So I have a long history with computers and Operating Systems in Command Line. I have used many different Operating Systems, but my favorite ones are the `*nix` family of Operating Systems.
+    { .annotate }
+
+    1.    ![IBM PX-XT](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/IBM_PC_XT_color.jpg/250px-IBM_PC_XT_color.jpg)
+
+          **PC-XT** is a term used to refer to the IBM Personal Computer XT, which was one of the first personal computers to use the Intel 8088 processor and was widely used in the 1980s.
+
+    2.    **compatiable** is a term used to refer to a computer that is compatible with the IBM PC-XT, which means it can run the same software and use the same hardware.
+
+    3.    ![**MS-DOS**](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Msdos-icon.svg/60px-Msdos-icon.svg.png) 
+
+          **MS-DOS** is a term used to refer to the Microsoft Disk Operating System, which is a command-line operating system that was widely used in the 1980s and 1990s.
+
 
 {==
 

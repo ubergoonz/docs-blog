@@ -1,7 +1,8 @@
 :root {
     --md-status--happy: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2M7 9.5C7 8.7 7.7 8 8.5 8s1.5.7 1.5 1.5S9.3 11 8.5 11 7 10.3 7 9.5m5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81M15.5 11c-.8 0-1.5-.7-1.5-1.5S14.7 8 15.5 8s1.5.7 1.5 1.5-.7 1.5-1.5 1.5Z"/></svg>');
-
     --md-status--hot: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2s-1 1-1 2-1 2-2 2-2-1-2-2-1-2-1-2-1 2-1 4 1 4 1 4-2 1-2 4 2 6 6 6 6-3 6-6-2-4-2-4 1-2 1-4-1-4-1-4-1 1-1 2-1 2-2 2-2-1-2-2 1-2 1-2Z"/></svg>');
+    --md-status--construction: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><rect x="2" y="17" width="20" height="3" rx="1" fill="%23FFC107"/><rect x="4" y="14" width="16" height="3" rx="1" fill="%23FF9800"/><rect x="7" y="7" width="10" height="7" rx="2" fill="%23795548"/><rect x="10" y="2" width="4" height="5" rx="1" fill="%23BDBDBD"/></g></svg>');
+    --md-status--draft: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.69 3.1a2.13 2.13 0 0 1 3 0l3.21 3.19a2.13 2.13 0 0 1 0 3l-9.97 9.97-4.24 1.06a1 1 0 0 1-1.22-1.22l1.06-4.24 9.97-9.97m2.12 1.41-1.41-1.41-9.19 9.19-.71 2.83 2.83-.71 9.19-9.19z"/></svg>');
 }
 
 .md-status--happy::after {
@@ -14,4 +15,16 @@
     mask-image: var(--md-status--hot);
     -webkit-mask-image: var(--md-status--hot);
     background-color: #ff9800; /* Orange for fire */
+}
+
+.md-status--construction::after {
+    mask-image: var(--md-status--construction);
+    -webkit-mask-image: var(--md-status--construction);
+    background-color: #ffc107; /* Yellow for construction */
+}
+
+.md-status--draft::after {
+    mask-image: var(--md-status--draft);
+    -webkit-mask-image: var(--md-status--draft);
+    background-color: #9e9e9e; /* Grey for draft */
 }

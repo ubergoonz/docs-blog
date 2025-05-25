@@ -1,5 +1,5 @@
 # Project information
-site_name: ubergoonz docs & blog
+site_name: the curious mind 🧠 of ubergoonz
 site_url: https://ubergoonz.github.io/docs-blog/
 site_author: ubergoonz
 site_description: >-
@@ -60,7 +60,7 @@ theme:
       md: material/language-markdown-outline
       automation: material/auto-mode
       nix: octicons/terminal-16
-      linux: octicons/terminal-16
+      linux: simple/linux
       unix: octicons/terminal-16
       solaris: octicons/terminal-16
       plantuml: simple/uml
@@ -69,6 +69,7 @@ theme:
       materialmkdocs: simple/materialformkdocs
       ai-assisted-coding: material/robot-happy
       ai-augmented-development: material/robot-happy
+      raspberrypi: simple/raspberrypi
     annotation: material/crosshairs-question
   font:
     text: Roboto
@@ -215,11 +216,14 @@ extra:
     materialmkdocs: materialmkdocs
     ai-assisted-coding: ai-assisted-coding
     ai-augmented-development: ai-augmented-development
+    raspberrypi: raspberrypi
   status:
     deprecated: WIll be removed soon
     new: Recently added
     happy: Happy
-    hot: hot
+    hot: Hot
+    construction: Under construction
+    draft: Draft
 extra_javascript:
   - assets/javascripts/consent.js
 
@@ -290,6 +294,7 @@ nav:
     - Site Architecture: about/site-architecture.md
     - Site Navigation: about/site-navigation.md
     - Page Navigation: about/page-navigation.md
+    - Page Style & Formatting: about/page-style-formatting.md
     - Copyright: about/copyright.md
     - Disclaimer: about/disclaimer.md
     - Changelog: about/changelog.md

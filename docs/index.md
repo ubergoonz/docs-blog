@@ -1,9 +1,10 @@
 ---
 hide:
 #  - navigation
-#  - toc
+  - toc
   - footer
 icon: material/home
+status: construction
 ---
 
 # :material-home: Home

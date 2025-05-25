@@ -1,10 +1,13 @@
 ---
 icon: octicons/book-16
+status: hot 
 ---
-
 # :octicons-book-16: Manual of Me
 
-Hello, I am ubergoonz, a {--system administrato--} [{++Platform Engineering Technologist++}](https://platformengineering.org){:target="_blank"} {>>changed since 2020<<} with a passion for technology and a love for sharing knowledge. This manual is a collection of my personal notes, guides, and resources that I have found useful in my journey as a platform engineer.
+Hello, I am ubergoonz, a {--system administrato--} [{++Platform Engineering Technologist++}](https://platformengineering.org){:target="_blank"} {>>changed since 2020<<} with a passion for technology and a love for sharing knowledge. 
+
+!!! info
+    This manual is a collection of my personal notes, guides, and resources that I have found useful in my journey as a platform engineer.
 
 ## The basics you should know about me are ...
 
@@ -28,7 +31,7 @@ Hello, I am ubergoonz, a {--system administrato--} [{++Platform Engineering Tech
 ## Beyond work, I’m really passionate about ...
 
 - **Technology**: I love exploring new technologies, especially in the areas of cloud computing, DevOps, automation, AI Augmented Development and platform engineering. I enjoy experimenting with new tools and frameworks, and I am always looking for ways to improve my skills and knowledge.
-- **Writing**: I enjoy writing about technology and sharing my knowledge with others. I believe that writing is a powerful way to learn and to help others learn as well. You can find my articles on my [blog](../blog/index.md){:target="_blank"}.
+- **Writing**: I enjoy writing about technology and sharing my knowledge with others. I believe that writing is a powerful way to learn and to help others learn as well. You can find my articles on my [documentation](../docs/index.md) and [blog](../blog/index.md).
 - **Table Tennis**: I am an avid table tennis player and enjoy playing competitively. I find that playing sports helps me to stay focused and energized, and it is a great way to relieve stress.
 
 ## My preferred working style is ...
@@ -38,6 +41,11 @@ Hello, I am ubergoonz, a {--system administrato--} [{++Platform Engineering Tech
 - I am comfortable working in a fast-paced environment and can adapt to changing priorities. I believe that flexibility and adaptability are key to success in today's dynamic tech landscape.
 - I value open communication and transparency. I believe that clear communication is essential for effective collaboration and problem-solving.
 - I am a lifelong learner and enjoy staying up-to-date with the latest trends and technologies. I believe that continuous learning is essential for personal and professional growth.
+- I alternates between working in office and remotely.
+    - On days that I work in the office, I prefer to arrive late in the morning and leave in the early afternoon. This allows me to avoid peak traffic hours and have a quieter work environment.
+    - On days that I work remotely, I prefer to start my workday in the late morning and continue into the evening. This allows me to take advantage of quieter hours and be more productive.
+    - With the exception on Fridays, I usually participate in meetings and collaborations till no later than 12 mindnight my local time.
+- I am comfortable with asynchronous communication and believe that it is essential for effective collaboration across different time zones. I use tools like email, chat, and project management software to stay connected with my team and stakeholders.
 
 ## My preferred communication style is ...
 
@@ -47,6 +55,7 @@ Hello, I am ubergoonz, a {--system administrato--} [{++Platform Engineering Tech
 - I prefer to communicate through written channels, such as email or chat, as it allows me to organize my thoughts and provide clear documentation. However, I am also comfortable with face-to-face or video meetings when necessary.
 
 ## My absolute requirements to do great work are ...
+
 - A clear understanding of the project goals and objectives. I believe that having a shared vision is essential for effective collaboration and successful outcomes.
 - Access to the necessary tools and resources to complete my work. I believe that having the right tools is essential for productivity and efficiency.
 - A supportive and collaborative team environment. I believe that working with a team that shares common goals and values leads to better results.
@@ -55,12 +64,14 @@ Hello, I am ubergoonz, a {--system administrato--} [{++Platform Engineering Tech
 - A healthy work-life balance. I believe that taking care of my physical and mental well-being is essential for long-term success and happiness.
 
 ## The best way to give me feedback is …
+
 - I appreciate constructive feedback that is specific and actionable. I believe that feedback should be focused on the work, not the person, and should aim to help me improve.
 - I prefer feedback to be delivered in a timely manner, ideally soon after the work is completed. This allows me to reflect on the feedback and make necessary adjustments.
 - I value feedback that is balanced, highlighting both strengths and areas for improvement. I believe that recognizing what is working well is just as important as identifying areas for growth.
 - I appreciate feedback that is delivered in a respectful and supportive manner. I believe that a positive and encouraging approach fosters a culture of continuous improvement.
 
 ## When I'm dealing with stress, I ...
+
 - Take a step back and assess the situation. I find that taking a moment to breathe and reflect helps me to regain perspective and clarity.
 - Prioritize my tasks and focus on what is most important. I believe that breaking down tasks into manageable steps helps to reduce overwhelm and stress.
 - Engage in physical activity, such as going for a walk or playing table tennis. I find that exercise helps to clear my mind and reduce stress.
