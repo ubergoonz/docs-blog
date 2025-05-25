@@ -1,5 +1,6 @@
 from textwrap import dedent
 import urllib.parse
+import re
 
 x_intent = "https://x.com/intent/tweet"
 fb_sharer = "https://www.facebook.com/sharer/sharer.php"
@@ -11,86 +12,38 @@ onenote_url = "https://www.onenote.com/"
 wechat_url = "https://web.wechat.com/"
 xiaohongshu_url = "https://www.xiaohongshu.com/"
 line_sharer = "https://social-plugins.line.me/lineit/share?url="  # LINE share URL
+include = re.compile(r"blog/[1-9].*")
 
 def on_page_markdown(markdown, **kwargs):
     page = kwargs['page']
     config = kwargs['config']
     if page.meta.get('template') != 'blog-post.html': # Only apply the social media tags to blog posts
+    #if not include.match(page.url):
         return markdown
 
     page_url = config.site_url+page.url
     page_title = urllib.parse.quote(page.title+'\n')
-    wa_text = urllib.parse.quote(f"{page.title}\n{page_url}")
-    tg_text = urllib.parse.quote(page.title)
-    tg_url = f"{tg_sharer}{urllib.parse.quote(page_url)}&text={tg_text}"
-    line_url = f"{line_sharer}{urllib.parse.quote(page_url)}"
+
 
     return markdown + dedent(f"""
+    <div style="text-align: center;" markdown="1">
+    
     ---
 
-    <div style="text-align: center;" markdown="1">
-
     :octicons-share-android-16: **Share on Socials** 
-
-    [ :simple-x: ]({x_intent}?text={page_title}&url={page_url}){{ :target="_blank" }} 
-    [ :material-facebook: ]({fb_sharer}?u={page_url}){{ :target="_blank" }} 
-    [ :material-linkedin: ]({linkedin_sharer}?url={page_url}){{ :target="_blank" }}
-    [ :simple-line: ]({line_url}){{ :target="_blank" }}
-    [ :simple-whatsapp: ]({wa_sharer}{wa_text}){{ :target="_blank" }}
-    [ :simple-telegram: ]({tg_url}){{ :target="_blank" }}
-    [ :simple-wechat: ]({wechat_url}){{ :target="_blank" title="Copy post URL for WeChat" }}
-    [ :simple-notion: ]({notion_url}){{ :target="_blank" title="Copy post URL for Notion" }}
-    [ :material-microsoft-onenote: ]({onenote_url}){{ :target="_blank" title="Copy post URL for OneNote" }}
-    [ :simple-xiaohongshu: ]({xiaohongshu_url}){{ :target="_blank" title="Copy post URL for Xiaohongshu" }}
+    [:simple-x:]({x_intent}?text={page_title}&url={page_url}){{ :target="_blank" title="Share on X" }}
+    [:simple-facebook:]({fb_sharer}?u={page_url}){{ :target="_blank" title="Share on Facebook" }}
+    [:material-linkedin:]({linkedin_sharer}?url={page_url}){{ :target="_blank" title="Share on LinkedIn" }}
+    [:simple-line:]({line_sharer}{urllib.parse.quote(page_url)}){{ :target="_blank" title="Share on LINE" }}
+    [:simple-whatsapp:]({wa_sharer}{urllib.parse.quote(f"{page.title}\n{page_url}")}){{ :target="_blank" title="Share on WhatsApp" }}
+    [:simple-telegram:]({tg_sharer}{urllib.parse.quote(page_url)}&text={urllib.parse.quote(page.title)}){{ :target="_blank" title="Share on Telegram" }}
+    [:simple-wechat:]({wechat_url}){{ :target="_blank" title="Copy post URL for WeChat" }}
+    [:simple-notion:]({notion_url}){{ :target="_blank" title="Copy post URL for Notion" }}
+    [:material-microsoft-onenote:]({onenote_url}){{ :target="_blank" title="Copy post URL for OneNote" }}
+    [:simple-xiaohongshu:]({xiaohongshu_url}){{ :target="_blank" title="Copy post URL for Xiaohongshu" }}
 
     :octicons-share-android-16: **Share on others**
-    
     [Copy Link :material-share-all:](javascript:void(0); "Copy post URL")
     [Add to Bookmark :material-bookmark:](javascript:void(0); "Add to Bookmark")
-
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {{
-        var links = document.querySelectorAll('a[title="Copy post URL"], a[title="Add to Bookmark"], a[title="Copy post URL for Notion"], a[title="Copy post URL for OneNote"], a[title="Copy post URL for WeChat"], a[title="Copy post URL for Xiaohongshu"]');
-        links.forEach(function(link) {{
-          link.addEventListener('click', function(e) {{
-            if (link.title === "Add to Bookmark") {{
-              e.preventDefault();
-              var title = document.title;
-              var url = window.location.href;
-              try {{
-                if (window.sidebar && window.sidebar.addPanel) {{
-                  // Firefox <=22
-                  window.sidebar.addPanel(title, url, "");
-                }} else if (window.external && ('AddFavorite' in window.external)) {{
-                  // IE Favorites
-                  window.external.AddFavorite(url, title);
-                }} else {{
-                  // Modern browsers
-                  alert('Press Ctrl+D (Windows) or Cmd+D (Mac) to bookmark this page.');
-                }}
-              }} catch (err) {{
-                alert('Press Ctrl+D (Windows) or Cmd+D (Mac) to bookmark this page.');
-              }}
-            }} else if (link.title === "Copy post URL for Notion") {{
-              navigator.clipboard.writeText(window.location.href);
-              alert('Link copied! Notion will open in a new tab. Paste the link into your Notion page.');
-            }} else if (link.title === "Copy post URL for OneNote") {{
-              navigator.clipboard.writeText(window.location.href);
-              alert('Link copied! OneNote will open in a new tab. Paste the link into your OneNote page.');
-            }} else if (link.title === "Copy post URL for WeChat") {{
-              navigator.clipboard.writeText(window.location.href);
-              alert('Link copied! WeChat Web will open in a new tab. Paste the link to share.');
-            }} else if (link.title === "Copy post URL for Xiaohongshu") {{
-              navigator.clipboard.writeText(window.location.href);
-              alert('Link copied! Xiaohongshu will open in a new tab. Paste the link to share.');
-            }} else {{
-              e.preventDefault();
-              navigator.clipboard.writeText(window.location.href);
-              alert('Link copied! Open your app and paste to share.');
-            }}
-          }});
-        }});
-      }});
-    </script>
     </div>
     """)
