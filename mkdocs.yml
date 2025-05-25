@@ -231,7 +231,7 @@ extra_css:
   - assets/stylesheets/extra.css
 
 hooks:
-  - ./hooks/socialmedia.py
+  - overrides/hooks/socialmedia.py
 
 # Extensions
 markdown_extensions:
