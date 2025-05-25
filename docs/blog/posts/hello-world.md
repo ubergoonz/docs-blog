@@ -24,7 +24,3 @@ dk;lskdl;sdkl;sd
 ldsl;k
 
 <p hidden>#more</p>
-
-djskdjslk ljdskljdskls
-
-

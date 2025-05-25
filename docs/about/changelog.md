@@ -1,6 +1,6 @@
 ---
 icon: simple/keepachangelog
-status: 
+status: new
 ---
 
 # :simple-keepachangelog: ChangeLog
@@ -16,3 +16,9 @@ status:
     **Format:** Typically concise and technical, often following a standardized format like [Keep a Changelog](https://keepachangelog.com/){target="_blank"} :octicons-link-external-16:.
 
 On ths page, you will find infomration about changes on this website.
+
+## Version 0.1.0 
+
+![release date](https://img.shields.io/badge/release_on-25_May_2025-green)
+
+- **Initial Release**: This is the first version of the website, marking the beginning of its development and deployment.

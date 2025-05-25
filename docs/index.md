@@ -10,16 +10,18 @@ icon: material/home
 
 ![Home cow](assets/images/favicon-32x32.png)
 
+Hello!!!!
+
 Welcome to {{ config.site_name }}
 
 > {{ config.site_description }}
 
 <marquee behavior="scroll" direction="left" style="color: red; font-size: 1.5em;">
-  🚧 This site is under construction! 🚧
+  🚧 This site is still under construction! 🚧
 </marquee>
 
-Hello!!!!
+This site is currently under construction. We are working hard to bring you a great experience, so please check back later for updates.
 
-This site is under construction
+In the meantime, feel free to explore the existing content and resources available on this site.
 
 ![Under Construction](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)

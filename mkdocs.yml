@@ -1,5 +1,5 @@
 # Project information
-site_name: ubergoonz
+site_name: ubergoonz docs & blog
 site_url: https://ubergoonz.github.io/docs-blog/
 site_author: ubergoonz
 site_description: >-
@@ -226,6 +226,9 @@ extra_javascript:
 extra_css:
   - assets/stylesheets/extra.css
 
+hooks:
+  - hooks/socialmedia.py
+
 # Extensions
 markdown_extensions:
   - abbr
@@ -279,6 +282,9 @@ markdown_extensions:
 nav:
   - Home: 
     - index.md
+    - about/index.md
+    - docs/index.md
+    - blog/index.md
   - About:
     - about/index.md
     - Site Architecture: about/site-architecture.md
