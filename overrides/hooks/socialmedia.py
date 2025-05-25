@@ -38,6 +38,7 @@ def on_page_markdown(markdown, **kwargs):
     share_md = f"""
 ---
 <div style="text-align: center;" markdown="1">
+
 :octicons-share-android-16: **Share on Social**
 
 <a href="{x_intent}?text={encoded_x_message}" target="_blank" class="x-share" data-message="{x_message}" title="Share on X">
@@ -61,23 +62,31 @@ def on_page_markdown(markdown, **kwargs):
 
 :octicons-copy-16: **Copy/paste and Share**
 
-<a href="javascript:void(0);" class="cp-share" data-message="{page_url}" title="Copy url to clipboard">
+<a href="javascript:void(0);" class="cp-share" data-message="Check out this awesome blog post: {page_title} {page_url}" title="Copy page URL to clipboard">
 :simple-xiaohongshu: :simple-notion: :material-microsoft-teams: :simple-zoom: :simple-slack: :simple-discord: :simple-reddit: :simple-stackoverflow:
 </a>
-</div>
 <script>
 document.addEventListener('DOMContentLoaded', function() {{
-  var shares = document.querySelectorAll('a.fb-share, a.li-share, a.xhs-share');
+  var shares = document.querySelectorAll('a');
   shares.forEach(function(link) {{
     link.addEventListener('click', function(e) {{
       if (link.classList.contains('cp-share')) {{
-        navigator.clipboard.writeText(link.getAttribute('data-message'));
-        alert('Message copied! Paste it in Xiaohongshu/Notion/Teams/Zoom/Slack/Discord/Reddit/StackOverflow to share.');
+        // Copy only the page URL for the "Copy/paste and Share" button
+        var message = link.getAttribute('data-message');
+        var url = message.split(' ').pop(); // Extract the last part (URL)
+        navigator.clipboard.writeText(url);
+        alert('Page URL copied to clipboard! Paste it into your favorite app.');
+      }} else if (link.classList.contains('fb-share') || link.classList.contains('li-share')) {{
+        // Copy the full message for Facebook and LinkedIn
+        var message = link.getAttribute('data-message');
+        navigator.clipboard.writeText(message);
+        alert('Message copied to clipboard! Paste it in the Social Platform dialog.');
       }}
     }});
   }});
 }});
 </script>
+</div>
 ---
 """
     return markdown + share_md
