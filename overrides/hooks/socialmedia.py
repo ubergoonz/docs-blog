@@ -31,16 +31,16 @@ def on_page_markdown(markdown, **kwargs):
     ---
 
     :octicons-share-android-16: **Share on Socials** 
-    [:simple-x:]({x_intent}?text={page_title}&url={page_url}){{ :target="_blank" title="Share on X" }}
-    [:simple-facebook:]({fb_sharer}?u={page_url}){{ :target="_blank" title="Share on Facebook" }}
-    [:material-linkedin:]({linkedin_sharer}?url={page_url}){{ :target="_blank" title="Share on LinkedIn" }}
-    [:simple-line:]({line_sharer}{urllib.parse.quote(page_url)}){{ :target="_blank" title="Share on LINE" }}
-    [:simple-whatsapp:]({wa_sharer}{urllib.parse.quote(f"{page.title}\n{page_url}")}){{ :target="_blank" title="Share on WhatsApp" }}
-    [:simple-telegram:]({tg_sharer}{urllib.parse.quote(page_url)}&text={urllib.parse.quote(page.title)}){{ :target="_blank" title="Share on Telegram" }}
-    [:simple-wechat:]({wechat_url}){{ :target="_blank" title="Copy post URL for WeChat" }}
-    [:simple-notion:]({notion_url}){{ :target="_blank" title="Copy post URL for Notion" }}
-    [:material-microsoft-onenote:]({onenote_url}){{ :target="_blank" title="Copy post URL for OneNote" }}
-    [:simple-xiaohongshu:]({xiaohongshu_url}){{ :target="_blank" title="Copy post URL for Xiaohongshu" }}
+    [:simple-x:]({x_intent}?text={page_title}&url={page_url}){{ target="_blank" title="Share on X" }}
+    [:simple-facebook:]({fb_sharer}?u={page_url}){{ target="_blank" title="Share on Facebook" }}
+    [:material-linkedin:]({linkedin_sharer}?url={page_url}){{ target="_blank" title="Share on LinkedIn" }}
+    [:simple-line:]({line_sharer}{urllib.parse.quote(page_url)}){{ target="_blank" title="Share on LINE" }}
+    [:simple-whatsapp:]({wa_sharer}{urllib.parse.quote(f"{page.title}\n{page_url}")}){{ target="_blank" title="Share on WhatsApp" }}
+    [:simple-telegram:]({tg_sharer}{urllib.parse.quote(page_url)}&text={urllib.parse.quote(page.title)}){{ target="_blank" title="Share on Telegram" }}
+    [:simple-wechat:]({wechat_url}){{ target="_blank" title="Copy post URL for WeChat" }}
+    [:simple-notion:]({notion_url}){{ target="_blank" title="Copy post URL for Notion" }}
+    [:material-microsoft-onenote:]({onenote_url}){{ target="_blank" title="Copy post URL for OneNote" }}
+    [:simple-xiaohongshu:]({xiaohongshu_url}){{ target="_blank" title="Copy post URL for Xiaohongshu" }}
 
     :octicons-share-android-16: **Share on others**
     [Copy Link :material-share-all:](javascript:void(0); "Copy post URL")
