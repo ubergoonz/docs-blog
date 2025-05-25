@@ -28,3 +28,23 @@
     -webkit-mask-image: var(--md-status--draft);
     background-color: #9e9e9e; /* Grey for draft */
 }
+.social-share {
+  margin-top: 2em;
+}
+.share-buttons a {
+  display: inline-block;
+  margin: 0.25em;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.share-buttons a .twemoji {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.1em;
+}
+.more-share {
+  margin-top: 0.5em;
+}
+.more-share a {
+  font-size: 1em;
+}
