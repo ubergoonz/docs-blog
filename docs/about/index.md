@@ -1,5 +1,6 @@
 ---
 icon: octicons/info-16
+status: published
 ---
 
 # :octicons-info-16: About

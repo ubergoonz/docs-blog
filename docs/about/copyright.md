@@ -1,5 +1,6 @@
 ---
 icon: material/copyright
+status: published
 ---
 
 # :material-copyright: Copyright

@@ -11,11 +11,11 @@ fb_owner = "@ubergoonz"
 li_owner = "@lesliewang"
 
 def on_page_markdown(markdown, **kwargs):
-    page = kwargs['page']
-    config = kwargs['config']
-    if page.meta.get('template') != 'blog-post.html':
+    page = kwargs.get('page')
+    if not page or not page.meta.get('is_blog_post')
         return markdown
 
+    config = kwargs['config']
     page_url = config.site_url + page.url
     page_title = page.title
 
@@ -60,9 +60,9 @@ def on_page_markdown(markdown, **kwargs):
 :material-email:
 </a>
 
-:octicons-copy-16: **Copy/paste and Share**
+:octicons-copy-16: **Copy/Paste and Share** :octicons-share-android-16:
 
-<a href="javascript:void(0);" class="cp-share" data-message="Check out this awesome blog post: {page_title} {page_url}" title="Copy page URL to clipboard">
+<a href="javascript:void(0);" class="cp-share" data-url="{page_url}" title="Copy page URL to clipboard">
 :simple-xiaohongshu: :simple-notion: :material-microsoft-teams: :simple-zoom: :simple-slack: :simple-discord: :simple-reddit: :simple-stackoverflow:
 </a>
 <script>
@@ -72,10 +72,10 @@ document.addEventListener('DOMContentLoaded', function() {{
     link.addEventListener('click', function(e) {{
       if (link.classList.contains('cp-share')) {{
         // Copy only the page URL for the "Copy/paste and Share" button
-        var message = link.getAttribute('data-message');
-        var url = message.split(' ').pop(); // Extract the last part (URL)
+        var url = link.getAttribute('data-url');
         navigator.clipboard.writeText(url);
         alert('Page URL copied to clipboard! Paste it into your favorite app.');
+        e.preventDefault();
       }} else if (link.classList.contains('fb-share') || link.classList.contains('li-share')) {{
         // Copy the full message for Facebook and LinkedIn
         var message = link.getAttribute('data-message');
@@ -87,6 +87,5 @@ document.addEventListener('DOMContentLoaded', function() {{
 }});
 </script>
 </div>
----
 """
     return markdown + share_md

@@ -1,5 +1,6 @@
 ---
 icon: octicons/stack-16
+status: published
 ---
 
 # :octicons-stack-16: Site Architecture

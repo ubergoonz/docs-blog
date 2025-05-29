@@ -1,5 +1,6 @@
 ---
 icon: material/file-multiple
+status: published
 ---
 
 # :material-file-multiple: Page Navigation

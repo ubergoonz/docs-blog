@@ -6,6 +6,12 @@ tags:
 
 # :material-auto-mode: Automation
 
+{==
+
+In this section, you will find various documentations related to `*nix` Operating Systems.
+
+==}
+
 ???+ abstract
 
     As a lazy {--sysadmin--} {++engineer++} (1), I hate doing repetitive tasks. 
@@ -19,12 +25,6 @@ tags:
           **engineer** is a more general term that can refer to anyone who designs, builds, or maintains systems, including software engineers, hardware engineers, and systems engineers.
 
           ==I did a carrer change from sysadmin to engineer, so I prefer to use the term engineer now.==
-
-{==
-
-In this section, you will find various documentations related to `*nix` Operating Systems.
-
-==}
 
 
 <div class="grid cards" markdown>

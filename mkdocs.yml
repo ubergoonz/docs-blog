@@ -65,7 +65,7 @@ theme:
       solaris: octicons/terminal-16
       plantuml: simple/uml
       vscode: material/microsoft-visual-studio-code
-      documentation: material/bookshelf
+      docs: material/bookshelf
       materialmkdocs: simple/materialformkdocs
       ai-assisted-coding: material/robot-happy
       ai-augmented-development: material/robot-happy
@@ -212,7 +212,7 @@ extra:
     unix: unix
     plantuml: plantuml
     vscode: vscode
-    documentation: documentation
+    docs: docs
     materialmkdocs: materialmkdocs
     ai-assisted-coding: ai-assisted-coding
     ai-augmented-development: ai-augmented-development
@@ -220,10 +220,9 @@ extra:
   status:
     deprecated: WIll be removed soon
     new: Recently added
-    happy: Happy
-    hot: Hot
-    construction: Under construction
-    draft: Draft
+    published: Page is complete an published
+    hot: Hot topic
+    draft: Draft - work in progress
 extra_javascript:
   - assets/javascripts/consent.js
 
@@ -295,11 +294,18 @@ nav:
     - Site Navigation: about/site-navigation.md
     - Page Navigation: about/page-navigation.md
     - Page Style & Formatting: about/page-style-formatting.md
+    - Page Status: 
+        - about/page-status/index.md
+        - about/page-status/deprecated.md
+        - about/page-status/draft.md
+        - about/page-status/hot.md
+        - about/page-status/new.md
+        - about/page-status/published.md
     - Copyright: about/copyright.md
     - Disclaimer: about/disclaimer.md
     - Changelog: about/changelog.md
     - Manual of Me: about/manual-of-me.md
-  - Docunmentations:
+  - Docs:
       - docs/index.md
       - Tags: docs/tags.md
       - Automation:

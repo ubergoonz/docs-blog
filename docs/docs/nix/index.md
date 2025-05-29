@@ -9,6 +9,12 @@ tags:
 
 # :octicons-terminal-16: *nix
 
+{==
+
+In this section, you will find various documentations related to `*nix` Operating Systems.
+
+==}
+
 ???+ abstract
 
     I started using my first computer in 1980s on a [PC-XT](https://en.wikipedia.org/wiki/IBM_Personal_Computer_XT){:target="_blank"} (1) [compatiable](https://en.wikipedia.org/wiki/IBM_PC_compatible){:target="_blank"}(2) running [MS-DOS](https://en.wikipedia.org/wiki/MS-DOS){:target="_blank"}(3). So I have a long history with computers and Operating Systems in Command Line. I have used many different Operating Systems, but my favorite ones are the `*nix` family of Operating Systems.
@@ -23,13 +29,6 @@ tags:
     3.    ![**MS-DOS**](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Msdos-icon.svg/60px-Msdos-icon.svg.png) 
 
           **MS-DOS** is a term used to refer to the Microsoft Disk Operating System, which is a command-line operating system that was widely used in the 1980s and 1990s.
-
-
-{==
-
-In this section, you will find various documentations related to `*nix` Operating Systems.
-
-==}
 
 <div class="grid cards" markdown>
 

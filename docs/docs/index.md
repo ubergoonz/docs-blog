@@ -1,13 +1,14 @@
 ---
 icon: material/bookshelf
 tags:
-    - documentation
+    - docs
+status: published
 ---
 # :material-bookshelf: Documentations
 
 Welcome to the documentations section of this site.
 
-In this section you will find documentations based on product or technology and organized in **Diátaxis** (1) methodology.
+In this section you will find documentations organized based on product or technology and adopted **Diátaxis** (1) methodology.
 { .annotate }
 
 1.    **What is Diátaxis?**

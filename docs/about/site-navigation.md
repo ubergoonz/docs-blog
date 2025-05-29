@@ -1,5 +1,6 @@
 ---
 icon: material/compass
+status: published
 ---
 
 # :material-compass: Navigation

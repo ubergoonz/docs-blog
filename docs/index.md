@@ -4,8 +4,12 @@ hide:
   - toc
   - footer
 icon: material/home
-status: construction
+status: published
 ---
+
+<marquee behavior="scroll" direction="left" style="color: red; font-size: 1.5em;">
+  🚧 This site is still under construction! 🚧
+</marquee>
 
 # :material-home: Home
 
@@ -17,11 +21,7 @@ Welcome to {{ config.site_name }}
 
 > {{ config.site_description }}
 
-<marquee behavior="scroll" direction="left" style="color: red; font-size: 1.5em;">
-  🚧 This site is still under construction! 🚧
-</marquee>
-
-This site is currently under construction. We are working hard to bring you a great experience, so please check back later for updates.
+This site is constantly under construction. We are working hard to bring you a great experience, so please check back later for updates.
 
 In the meantime, feel free to explore the existing content and resources available on this site.
 

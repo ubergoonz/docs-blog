@@ -11,6 +11,8 @@ tags:
 feedback: true
 title: "Hello world!"
 description: "Just a hello world"
+is_blog_post: true
+status: draft
 ---
 
 # Hello world!
