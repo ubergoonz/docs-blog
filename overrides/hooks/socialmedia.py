@@ -12,7 +12,7 @@ li_owner = "@lesliewang"
 
 def on_page_markdown(markdown, **kwargs):
     page = kwargs.get('page')
-    if not page or not page.meta.get('is_blog_post')
+    if not page or not page.meta.get('is_blog_post'):
         return markdown
 
     config = kwargs['config']
