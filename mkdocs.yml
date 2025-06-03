@@ -341,6 +341,7 @@ nav:
       - "*nix": 
         - Overview: docs/nix/index.md
         - Explanation: docs/nix/explanation/index.md
+        - "*Nix I've used": docs/nix/explanation/nix-os-i-have-used.md
         - How to: docs/nix/how-to/index.md
         - References: docs/nix/reference/index.md
         - Tutorials: docs/nix/tutorial/index.md
