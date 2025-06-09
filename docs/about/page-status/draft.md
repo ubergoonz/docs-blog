@@ -5,6 +5,6 @@ icon: simple/statuspage
 
 # :simple-statuspage: Draft
 
-The page is currently a draft and not yet ready for publication. It may contain incomplete information or be under review.
-Use with a pinch of salt, as it may not be accurate or complete.
-Please check back later for the final version or contact the author for more details.
+> The icon displayed on the side navigation does not represent the status of the page. Instead, it is a static icon that does not change based on the page's status.
+
+<span class="md-ellipsis"> THe icon <span class="md-status md-status--draft" title="Draft - work in progress"> </span> </span> denotes that the page is a draft. It is a work in progress and may not contain all the information needed for publication. Users should be aware that the content is subject to change and may not be final.
