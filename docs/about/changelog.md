@@ -15,16 +15,12 @@ status: new
     
     **Format:** Typically concise and technical, often following a standardized format like [Keep a Changelog](https://keepachangelog.com/){target="_blank"} :octicons-link-external-16:.
 
-On ths page, you will find infomration about changes on this website.
+On ths page, you will find information about changes on this website.
 
-## Version 0.2.0 
-
-![release date](https://img.shields.io/badge/release_on-28_May_2025-green)
+## Version 0.2.0 ![release date](https://img.shields.io/badge/release_on-28_May_2025-green)
 
 - Added the [page status feature](./page-status/index.md) to indicate the current state of each page.
 
-## Version 0.1.0 
-
-![release date](https://img.shields.io/badge/release_on-25_May_2025-green)
+## Version 0.1.0 ![release date](https://img.shields.io/badge/release_on-25_May_2025-green)
 
 - **Initial Release**: This is the first version of the website, marking the beginning of its development and deployment.
