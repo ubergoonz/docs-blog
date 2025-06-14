@@ -2,7 +2,6 @@
 icon: material/bookshelf
 tags:
     - docs
-status: published
 ---
 # :material-bookshelf: Documentations
 

@@ -4,11 +4,11 @@ tags:
     - automation
 ---
 
-# :material-auto-mode: Automation
+# :material-auto-mode: Automations
 
 {==
 
-In this section, you will find various documentations related to `*nix` Operating Systems.
+In this section, you will find various documentations related to `Automation`.
 
 ==}
 

@@ -7,17 +7,13 @@ icon: material/home
 status: published
 ---
 
-<marquee behavior="scroll" direction="left" style="color: red; font-size: 1.5em;">
-  🚧 This site is still under construction! 🚧
-</marquee>
-
 # :material-home: Home
 
 ![Home cow](assets/images/favicon-32x32.png)
 
 Hello!!!!
 
-Welcome to {{ config.site_name }}
+Welcome to **{{ config.site_name }}!**
 
 > {{ config.site_description }}
 

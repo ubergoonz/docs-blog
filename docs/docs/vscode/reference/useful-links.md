@@ -4,4 +4,4 @@ tags:
     - vscode
 ---
 
-# :octicons-cross-reference-16: USeful Links
+# :octicons-cross-reference-16: Useful Links

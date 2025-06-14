@@ -5,6 +5,7 @@ tags:
     - unix
     - solaris
     - linux
+status: new
 ---
 
 # :octicons-terminal-16: *nix

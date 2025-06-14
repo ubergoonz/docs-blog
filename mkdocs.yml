@@ -3,7 +3,7 @@ site_name: the curious mind 🧠 of ubergoonz
 site_url: https://ubergoonz.github.io/docs-blog/
 site_author: ubergoonz
 site_description: >-
-  Documentation and blog by ubergoonz on technology, software development, AI Augmented Development.
+  Documentation and blog by ubergoonz on technology, software development, AI Augmented Development and many more.
   <br>
   This website is intended for myself and any technologist who are keen to learn and share knowledge.
 
@@ -308,12 +308,12 @@ nav:
   - Docs:
       - docs/index.md
       - Tags: docs/tags.md
-      - Automation:
-        - Overview: docs/automation/index.md
-        - Explanation: docs/automation/explanation/index.md
-        - How to: docs/automation/how-to/index.md
-        - References: docs/automation/reference/index.md
-        - Tutorials: docs/automation/tutorial/index.md
+      - Automations:
+        - Overview: docs/automations/index.md
+        - Explanation: docs/automations/explanation/index.md
+        - How to: docs/automations/how-to/index.md
+        - References: docs/automations/reference/index.md
+        - Tutorials: docs/automations/tutorial/index.md
       - GitHub Copilot:
         - Overview: docs/github-copilot/index.md
         - Explanation: docs/github-copilot/explanation/index.md
@@ -340,8 +340,9 @@ nav:
           - Tutorials: docs/material-mkdocs/tutorial/index.md
       - "*nix": 
         - Overview: docs/nix/index.md
-        - Explanation: docs/nix/explanation/index.md
-        - "*Nix I've used": docs/nix/explanation/nix-os-i-have-used.md
+        - Explanation: 
+          - docs/nix/explanation/index.md
+          - docs/nix/explanation/my-unix-journey.md
         - How to: docs/nix/how-to/index.md
         - References: docs/nix/reference/index.md
         - Tutorials: docs/nix/tutorial/index.md

@@ -1,10 +1,11 @@
 ---
 icon: octicons/terminal-16
-status: draft
+status: new
+tags:
+    - unix
 ---
 
-
-# :octicons-terminal-16: My Unix/Linux Journey 🖥️ (Since 1997)
+# :octicons-terminal-16: My Unix Journey 
 
 _"The Unix philosophy is to do one thing and do it well."_ - Doug McIlroy (1)  
 _"Unix is simple. It just takes a genius to understand its simplicity."_ - Dennis Ritchie (2)
@@ -67,6 +68,6 @@ Thanks to the Internet, I was able to learn more about Unix and Linux, and I sta
 - **Memories**: First experience with SELinux and extensive web hosting setup.
 
 ## 2017 - Present: Ubuntu LTS & Manjaro 🛠️
-- **OS**: Ubuntu, Raspberry Pi OSa, WSL
-- **Why**: Balancing stability (Ubuntu) 
+- **OS**: macOS, Ubuntu, Raspberry Pi OS, WSL
+- **Why**: Balancing stability
 - **Memories**: A smooth and productive environment for both work and personal projects.

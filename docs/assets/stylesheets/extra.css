@@ -21,7 +21,7 @@
 .md-status--draft::after {
     mask-image: var(--md-status--draft);
     -webkit-mask-image: var(--md-status--draft);
-    background-color: #9e9e9e; /* Grey for draft */
+    background-color: #fff9c4; /* Pastel yellow for draft */
 }
 .md-status--deprecated::after {
     mask-image: var(--md-status--deprecated);
