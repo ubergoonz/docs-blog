@@ -40,5 +40,4 @@ mkdocs-puml~=2.3
 mkdocs-material
 mkdocs-git-revision-date-localized-plugin~=1.4.5
 mkdocs-glightbox~=0.4.0
-mkdocs-puml~=2.3
 mkdocs-material
