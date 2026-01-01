@@ -1,32 +1,15 @@
 ---
-status: draft
-icon: material/auto-mode
-tags:
-    - automation
+icon: simple/starship
 ---
 
-# :material-auto-mode: Automations
+# :simple-starship: Starship
 
 {==
 
-In this section, you will find various documentations related to `Automation`.
+- [:octicons-globe-16: Product Official Website](https://starship.rs){:target="_blank"}
+- [:material-library-shelves: Official Documentations](https://starship.rs/guide/){:target="_blank"}
 
 ==}
-
-???+ abstract
-
-    As a lazy {--sysadmin--} {++engineer++} (1), I hate doing repetitive tasks. 
-    { .annotate }
-
-    Automation is the key to making my life easier and more efficient. In this section, you will find various useful information about Automation.
-
-
-    1.    **sysadmin** is a term used to refer to a system administrator, which is a person responsible for managing and maintaining computer systems and networks.
-
-          **engineer** is a more general term that can refer to anyone who designs, builds, or maintains systems, including software engineers, hardware engineers, and systems engineers.
-
-          ==I did a carrer change from sysadmin to engineer, so I prefer to use the term engineer now.==
-
 
 <div class="grid cards" markdown>
 

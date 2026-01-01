@@ -4,7 +4,7 @@ status: hot
 ---
 # :octicons-book-16: Manual of Me
 
-Hello, I am ubergoonz, a {--system administrato--} [{++Platform Engineering Technologist++}](https://platformengineering.org){:target="_blank"} {>>changed since 2020<<} with a passion for technology and a love for sharing knowledge. 
+Hello, I am ubergoonz, a {--system administrator--} [{++Platform Engineering Technologist++}](https://platformengineering.org){:target="_blank"} {>>changed since 2020<<} with a passion for technology and a love for sharing knowledge. 
 
 !!! info
     This manual is a collection of my personal notes, guides, and resources that I have found useful in my journey as a platform engineer.

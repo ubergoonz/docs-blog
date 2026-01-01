@@ -63,7 +63,7 @@ def on_page_markdown(markdown, **kwargs):
 :octicons-copy-16: **Copy/Paste and Share** :octicons-share-android-16:
 
 <a href="javascript:void(0);" class="cp-share" data-url="{page_url}" title="Copy page URL to clipboard">
-:simple-xiaohongshu: :simple-notion: :material-microsoft-teams: :simple-zoom: :simple-slack: :simple-discord: :simple-reddit: :simple-stackoverflow:
+:simple-xiaohongshu: :simple-notion: :material-microsoft-teams: :simple-zoom: :material-slack: :simple-discord: :simple-reddit: :simple-stackoverflow:
 </a>
 <script>
 document.addEventListener('DOMContentLoaded', function() {{

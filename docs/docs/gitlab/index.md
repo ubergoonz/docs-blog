@@ -6,9 +6,11 @@ tags:
 
 # :simple-gitlab: GitLab
 
+> Deliver better software faster with one platform for your entire software delivery lifecycle.
+
 {==
 
-- [:octicons-globe-16: Product Official Website](https://gitlab.com/){:target="_blank"}
+- [:octicons-globe-16: Product Official Website](https://gitlab.com/platform/){:target="_blank"}
 - [:material-library-shelves: Official Documentations](https://docs.gitlab.com/){:target="_blank"}
 
 ==}

@@ -8,9 +8,11 @@ tags:
 
 # :octicons-copilot-16: GitHub Copilot
 
+> Accelerate developer productivity with GitHub Copilot, the competitive advantage developers ask for by name.
+
 {==
 
-- [:octicons-globe-16: Product Official Website](https://github.com/features/copilot){:target="_blank"}
+- [:octicons-globe-16: Product Official Website](https://azure.microsoft.com/en-in/products/github/copilot){:target="_blank"}
 - [:material-library-shelves: Product Documentation](https://docs.github.com/en/copilot){:target="_blank"}
 
 ==}

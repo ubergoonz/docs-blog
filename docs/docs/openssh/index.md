@@ -1,32 +1,17 @@
 ---
-status: draft
-icon: material/auto-mode
-tags:
-    - automation
+icon: material/ssh
 ---
 
-# :material-auto-mode: Automations
+# :material-ssh: Open Secure Shell (SSH)
+
+> OpenSSH is the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options.
 
 {==
 
-In this section, you will find various documentations related to `Automation`.
+- [:octicons-globe-16: Product Official Website](https://openssh.org){:target="_blank"}
+- [:material-library-shelves: Official Documentations](https://www.openssh.org/manual.html){:target="_blank"}
 
 ==}
-
-???+ abstract
-
-    As a lazy {--sysadmin--} {++engineer++} (1), I hate doing repetitive tasks. 
-    { .annotate }
-
-    Automation is the key to making my life easier and more efficient. In this section, you will find various useful information about Automation.
-
-
-    1.    **sysadmin** is a term used to refer to a system administrator, which is a person responsible for managing and maintaining computer systems and networks.
-
-          **engineer** is a more general term that can refer to anyone who designs, builds, or maintains systems, including software engineers, hardware engineers, and systems engineers.
-
-          ==I did a carrer change from sysadmin to engineer, so I prefer to use the term engineer now.==
-
 
 <div class="grid cards" markdown>
 

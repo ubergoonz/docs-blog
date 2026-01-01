@@ -37,7 +37,9 @@ backrefs~=5.7.post1
 requests~=2.26
 mkdocs-macros-plugin~=0.7
 mkdocs-puml~=2.3
+mkdocs-material
 mkdocs-git-revision-date-localized-plugin~=1.4.5
 mkdocs-glightbox~=0.4.0
 #mkdocs-plantuml~=0.1.1
-mkdocs-puml~=2.3
+mkdocs-puml~=2.3mkdocs-material
+mkdocs-material

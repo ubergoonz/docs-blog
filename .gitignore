@@ -23,3 +23,5 @@ _scripts/.env
 .cache
 __pycache__
 
+.DS_Store
+node_modules/

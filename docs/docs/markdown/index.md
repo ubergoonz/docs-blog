@@ -6,6 +6,8 @@ tags:
 
 # :material-language-markdown-outline: Markdown
 
+> Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid HTML. <sub>[_Markdown by John Gruber_](https://daringfireball.net/projects/markdown/){:target="_blank"}</sub>
+
 {==
 
 - [:octicons-globe-16: IETF RFC 7764 Guidance on Markdown](https://datatracker.ietf.org/doc/html/rfc7764.html){:target="_blank"}

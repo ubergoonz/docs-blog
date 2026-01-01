@@ -326,6 +326,15 @@ nav:
         - How to: docs/markdown/how-to/index.md
         - References: docs/markdown/reference/index.md
         - Tutorials: docs/markdown/tutorial/index.md
+      - Ghostty:
+        - Overview: docs/ghostty/index.md
+        - Explanation: docs/ghostty/explanation/index.md
+        - How to: 
+          - docs/ghostty/how-to/index.md
+          - docs/ghostty/how-to/install.md
+          - docs/ghostty/how-to/configure.md
+        - References: docs/ghostty/reference/index.md
+        - Tutorials: docs/ghostty/tutorial/index.md
       - GitLab:
         - Overview: docs/gitlab/index.md
         - Explanation: docs/gitlab/explanation/index.md
@@ -346,18 +355,42 @@ nav:
         - How to: docs/nix/how-to/index.md
         - References: docs/nix/reference/index.md
         - Tutorials: docs/nix/tutorial/index.md
+      - Open SSH:
+        - Overview: docs/openssh/index.md
+        - Explanation: docs/openssh/explanation/index.md
+        - How to: docs/openssh/how-to/index.md
+        - References: docs/openssh/reference/index.md
+        - Tutorials: docs/openssh/tutorial/index.md
       - PlantUML: 
         - Overview: docs/plantuml/index.md
         - Explanation: docs/plantuml/explanation/index.md
         - How to: docs/plantuml/how-to/index.md
         - References: docs/plantuml/reference/index.md
         - Tutorials: docs/plantuml/tutorial/index.md
+      - Starship:
+        - Overview: docs/starship/index.md
+        - Explanation: docs/starship/explanation/index.md
+        - How to: docs/starship/how-to/index.md
+        - References: docs/starship/reference/index.md
+        - Tutorials: docs/starship/tutorial/index.md
+      - tmux:
+        - Overview: docs/tmux/index.md
+        - Explanation: docs/tmux/explanation/index.md
+        - How to: docs/tmux/how-to/index.md
+        - References: docs/tmux/reference/index.md
+        - Tutorials: docs/tmux/tutorial/index.md
       - Visual Studio Code: 
         - Overview: docs/vscode/index.md
         - Explanation: docs/vscode/explanation/index.md
         - How to: docs/vscode/how-to/index.md
         - References: docs/vscode/reference/index.md
         - Tutorials: docs/vscode/tutorial/index.md
+      - ZSH:
+        - Overview: docs/zsh/index.md
+        - Explanation: docs/zsh/explanation/index.md
+        - How to: docs/zsh/how-to/index.md
+        - References: docs/zsh/reference/index.md
+        - Tutorials: docs/zsh/tutorial/index.md
   - Blog:
       - blog/index.md
       - Tags: blog/tags.md
