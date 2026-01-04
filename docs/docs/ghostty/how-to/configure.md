@@ -1,6 +1,6 @@
 ---
-status: new
 icon: octicons/package-dependents-16
+status: published
 tags:
     - terminal
     - emulator

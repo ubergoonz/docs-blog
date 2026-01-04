@@ -1,6 +1,6 @@
 ---
 icon: material/package-variant-plus
-status: new
+status: published
 tags:
     - terminal
     - emulator

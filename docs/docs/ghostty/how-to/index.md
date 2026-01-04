@@ -1,6 +1,6 @@
 ---
 icon: material/head-question
-status: new
+status: published
 tags:
     - terminal
     - emulator
@@ -9,3 +9,4 @@ tags:
 # :material-head-question: How To
 
 - [How to install](./install.md)
+- [How to configure](./configure.md)

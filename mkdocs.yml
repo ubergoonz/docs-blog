@@ -73,7 +73,7 @@ theme:
     annotation: material/crosshairs-question
   font:
     text: Roboto
-    code: Roboto Mono
+    code: JetBrains Mono Nerd Font
   features:
 #    - navigation.expand
     - navigation.path
@@ -370,7 +370,10 @@ nav:
       - Starship:
         - Overview: docs/starship/index.md
         - Explanation: docs/starship/explanation/index.md
-        - How to: docs/starship/how-to/index.md
+        - How to: 
+          - docs/starship/how-to/index.md
+          - docs/starship/how-to/install.md
+          - docs/starship/how-to/configure.md
         - References: docs/starship/reference/index.md
         - Tutorials: docs/starship/tutorial/index.md
       - tmux:

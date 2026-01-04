@@ -56,3 +56,20 @@
 .more-share a {
   font-size: 1em;
 }
+
+@font-face {
+  font-family: 'JetBrains Mono Nerd Font';
+  src: url('../fonts/JetBrainsMonoNerdFontMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Apply to all code blocks */
+:root {
+  --md-code-font: "JetBrains Mono Nerd Font", monospace; 
+}
+
+/* Optional: Apply to specific elements for icons */
+.nerd-font-icon {
+  font-family: "JetBrains Mono Nerd Font", monospace;
+}

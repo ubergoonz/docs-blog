@@ -1,5 +1,9 @@
 ---
 icon: simple/starship
+tags:
+    - terminal
+    - prompt
+status: published
 ---
 
 # :simple-starship: Starship
