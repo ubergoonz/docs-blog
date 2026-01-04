@@ -3,6 +3,7 @@ icon: material/ghost
 tags:
   - terminal
   - emulator
+status: published
 ---
 
 # :material-ghost: Ghostty

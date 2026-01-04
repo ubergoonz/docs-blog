@@ -394,6 +394,10 @@ nav:
         - How to: docs/zsh/how-to/index.md
         - References: docs/zsh/reference/index.md
         - Tutorials: docs/zsh/tutorial/index.md
+  - Open Source:
+      - open-source/index.md
+      - Projects: open-source/projects/index.md
+      - Contributions: open-source/contributions/index.md
   - Blog:
       - blog/index.md
       - Tags: blog/tags.md

@@ -62,9 +62,13 @@ html -> pages : deploy (publish)
     │   ├── 📂 blog
     │   │   ├── 📂 posts
     │   │   └── ...
-    │   ├── 📂 documentaions
+    │   ├── 📂 docs
     │   │   ├── 📂 automation
     │   │   ├── 📂 github-copilot
+    │   │   └── ...
+    │   ├── 📂 open-source
+    │   │   ├── 📂 contributions
+    │   │   ├── 📂 projects
     │   │   └── ...
     │   ├── 📂 overrides
     │   │   ├── 📂 partials

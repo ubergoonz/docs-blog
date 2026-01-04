@@ -26,7 +26,6 @@ The configuration file is a plain text file that uses the [TOML](https://toml.io
 
     The prompt is based on the [Gruvbox Rainbow Preset](https://starship.rs/presets/gruvbox-rainbow){target="_blank"} with additional customizations with Pacman and Ghost glyphs for the command prompt symbols.
 
-
 ??? tip "screenshot"
 
     ![Starship Prompt Screenshot](./screenshot.png){.center-image}
