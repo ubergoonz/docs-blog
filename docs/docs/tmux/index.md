@@ -1,5 +1,10 @@
 ---
 icon: simple/tmux
+tag:
+    - terminal
+    - multiplexer
+    - productivity
+status: draft
 ---
 
 # :simple-tmux: tmux
