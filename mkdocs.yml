@@ -54,6 +54,7 @@ theme:
     repo: fontawesome/brands/github-alt
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
+    annotation: material/crosshairs-question
     tag:
       copilot: octicons/copilot-16
       gitlab: simple/gitlab
@@ -70,7 +71,10 @@ theme:
       ai-assisted-coding: material/robot-happy
       ai-augmented-development: material/robot-happy
       raspberrypi: simple/raspberrypi
-    annotation: material/crosshairs-question
+      prompt: octicons/paper-airplane-16
+      terminal: octicons/terminal-24
+      emulator: octicons/terminal-24
+      ghostty: material/ghost
   font:
     text: Roboto
     code: JetBrains Mono Nerd Font
@@ -379,7 +383,10 @@ nav:
       - tmux:
         - Overview: docs/tmux/index.md
         - Explanation: docs/tmux/explanation/index.md
-        - How to: docs/tmux/how-to/index.md
+        - How to: 
+          - docs/tmux/how-to/index.md
+          - docs/tmux/how-to/install.md
+          - docs/tmux/how-to/configure.md
         - References: docs/tmux/reference/index.md
         - Tutorials: docs/tmux/tutorial/index.md
       - Visual Studio Code: 
@@ -394,10 +401,10 @@ nav:
         - How to: docs/zsh/how-to/index.md
         - References: docs/zsh/reference/index.md
         - Tutorials: docs/zsh/tutorial/index.md
+  - Blog:
+      - blog/index.md
+      - Tags: blog/tags.md
   - Open Source:
       - open-source/index.md
       - Projects: open-source/projects/index.md
       - Contributions: open-source/contributions/index.md
-  - Blog:
-      - blog/index.md
-      - Tags: blog/tags.md
