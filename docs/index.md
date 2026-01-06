@@ -7,9 +7,6 @@ icon: material/home
 status: published
 ---
 
-<script>NekoType="white"</script>
-<h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a href="https://webneko.net">Neko</a></h1>
-
 # :material-home: Home
 
 ![Home cow](assets/images/favicon-32x32.png)
@@ -25,3 +22,6 @@ This site is constantly under construction. We are working hard to bring you a g
 In the meantime, feel free to explore the existing content and resources available on this site.
 
 ![Under Construction](https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif)
+
+<script>NekoType="white"</script>
+<h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a href="https://webneko.net">Neko</a></h1>
