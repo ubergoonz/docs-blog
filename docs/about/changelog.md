@@ -15,15 +15,23 @@ status: new
     
     **Format:** Typically concise and technical, often following a standardized format like [Keep a Changelog](https://keepachangelog.com/){target="_blank"} :octicons-link-external-16:.
 
+{==
+
 On ths page, you will find information about changes on this website.
 
-## Version 0.4.0 ![release date](https://img.shields.io/badge/release_on-05_Jan_2026-green)
+==}
+
+## Version 0.5.0 ![release date](https://img.shields.io/badge/release_on-07_Jan_2026-green)
+
+- Added [Web Neko cat](https://webneko.net){target="_blank"} for the fun of it.
+
+## Version 0.4.0 ![release date](https://img.shields.io/badge/release_on-05_Jan_2026-blue)
 
 - Add the Open Source section to showcase open source projects and contributions.
 
 ## Version 0.3.0 ![release date](https://img.shields.io/badge/release_on-10_June_2025-blue)
 
-- Introduced the [Changelog](./changelog/index.md) page to keep track of all notable changes made to the website.
+- Introduced the [Changelog](changelog.md) page to keep track of all notable changes made to the website.
 - Updated the [About](../about/index.md) page to include a brief overview of the website's purpose and content.
 
 ## Version 0.2.0 ![release date](https://img.shields.io/badge/release_on-28_May_2025-blue)

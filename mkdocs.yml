@@ -14,10 +14,8 @@ edit_uri: edit/main/docs/
 
 # Copyright
 copyright: >-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
   <a href="about/copyright/">Copyright</a> &copy; 2025 - <span id="year"></span> <b>All Rights Reserved</b><br>
+  <script>document.addEventListener('DOMContentLoaded', function(){ var el = document.getElementById('year'); if (el) { el.textContent = new Date().getFullYear(); }});</script>
   <a href="#__consent">Change cookie settings</a>
 
 theme:
@@ -72,9 +70,9 @@ theme:
       ai-augmented-development: material/robot-happy
       raspberrypi: simple/raspberrypi
       prompt: octicons/paper-airplane-16
-      terminal: octicons/terminal-24
-      emulator: octicons/terminal-24
-      cli: octicons/terminal-24
+      terminal: octicons/terminal-16
+      emulator: octicons/terminal-16
+      cli: octicons/terminal-16
       ghostty: material/ghost
   font:
     text: Roboto
@@ -310,7 +308,7 @@ nav:
     - Disclaimer: about/disclaimer.md
     - Changelog: about/changelog.md
     - Manual of Me: about/manual-of-me.md
-  - Docs:
+  - Documentations:
       - docs/index.md
       - Tags: docs/tags.md
       - Automations:

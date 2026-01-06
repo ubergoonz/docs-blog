@@ -10,7 +10,7 @@ Welcome to the documentations section of this site.
 
 In this section you will find documentations organized based on product and technology stacks that I am actively using.
 
-The documentations are organized using **Diátaxis** (1) methodology.
+The documentations are organized using **Diátaxis** (1) methodology for each topic.
 { .annotate }
 
 1.    **What is Diátaxis?**
