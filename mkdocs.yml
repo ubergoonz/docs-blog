@@ -74,6 +74,7 @@ theme:
       prompt: octicons/paper-airplane-16
       terminal: octicons/terminal-24
       emulator: octicons/terminal-24
+      cli: octicons/terminal-24
       ghostty: material/ghost
   font:
     text: Roboto
@@ -392,7 +393,9 @@ nav:
       - Visual Studio Code: 
         - Overview: docs/vscode/index.md
         - Explanation: docs/vscode/explanation/index.md
-        - How to: docs/vscode/how-to/index.md
+        - How to: 
+          -  docs/vscode/how-to/index.md
+          -  docs/vscode/how-to/launch-code-cli-macos.md
         - References: docs/vscode/reference/index.md
         - Tutorials: docs/vscode/tutorial/index.md
       - ZSH:
