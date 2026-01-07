@@ -16,6 +16,8 @@ The configuration file is a plain text file that uses the [TOML](https://toml.io
 
 ## My Starship configuration
 
+Inspired by <span style="color: yellow;">`󰮯 `</span>[Pacman and Ghosts Prompt](https://www.youtube.com/watch?v=R8QR98dioFQ){target="_blank"} 
+
 !!! warning "Important Note"
     
     This configuration is tailored to my personal preferences and setup. Feel free to modify it to suit your own needs and preferences.
@@ -29,6 +31,8 @@ The configuration file is a plain text file that uses the [TOML](https://toml.io
 ??? tip "screenshot"
 
     ![Starship Prompt Screenshot](./screenshot.png){.center-image}
+    
+    
 
 ```toml title="~/.config/starship.toml" linenums="1"
 
