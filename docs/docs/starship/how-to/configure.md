@@ -18,7 +18,7 @@ The configuration file is a plain text file that uses the [TOML](https://toml.io
 
 Inspired by :
 
-- <span style="color: yellow;">` 󰮯 `</span>[PPerfect Pacman](https://www.youtube.com/watch?v=R8QR98dioFQ){target="_blank"} 
+- <span style="color: yellow;">` 󰮯 `</span>[Perfect Pacman](https://www.youtube.com/watch?v=R8QR98dioFQ){target="_blank"} 
 - <span style="color: yellow;">` 󰮯 `</span>[Pac-Man Wasn’t Made for Gamers… And That’s Why It Worked](https://www.youtube.com/watch?v=Cnf19oS5Slk){target="_blank"} 
 
 !!! warning "Important Note"
