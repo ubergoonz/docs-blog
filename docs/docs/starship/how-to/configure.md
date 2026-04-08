@@ -39,15 +39,15 @@ Inspired by :
 
 ```toml title="~/.config/starship.toml" linenums="1"
 
+
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
 [](color_purple)\
 $os\
 [](color_purple)\
-
 [](color_orange)\
-$username$directory\
+$username$hostname$directory\
 [](fg:color_yellow bg:color_aqua)\
 $git_branch\
 $git_status\
@@ -130,14 +130,20 @@ Pop = ""
 show_always = true
 style_user = "bg:color_orange fg:color_fg0"
 style_root = "bg:color_red fg:color_fg0"
-format = '[$user@]($style)'
+format = '[ $user@]($style)'
+
+[hostname]
+ssh_only = false
+style = "fg:color_fg0 bg:color_yellow"
+ssh_symbol = '🌐 '
+format = '[$ssh_symbol$hostname:]($style)'
 
 [directory]
 style = "fg:color_fg0 bg:color_yellow"
 read_only = ' '
 read_only_style = "fg:color_red bg:color_yellow"
 format = "[$path]($style)[$read_only]($read_only_style)"
-truncation_length = 3
+truncation_length = 0
 truncation_symbol = "…/"
 
 [directory.substitutions]

@@ -30,18 +30,18 @@ fi
 # shellcheck source=/dev/null
 source "$VENV_DIR/bin/activate"
 
-# Upgrade pip and tools
-python -m pip install --upgrade pip setuptools wheel >/dev/null
+# Upgrade installer tooling
+python -m pip install --upgrade pip wheel >/dev/null
 
-# Install requirements if mkdocs not available in venv
-if ! command -v mkdocs >/dev/null 2>&1; then
-	if [ -f "$REQ_FILE" ]; then
-		echo "Installing Python requirements from $REQ_FILE"
-		pip install -r "$REQ_FILE"
-	else
-		echo "Requirements file $REQ_FILE not found; attempting to install mkdocs"
-		pip install mkdocs
-	fi
+# Always sync project requirements so the venv matches pinned plugin versions.
+# This avoids stale environments where mkdocs exists but a required dependency
+# (such as setuptools providing pkg_resources) is missing or incompatible.
+if [ -f "$REQ_FILE" ]; then
+	echo "Installing Python requirements from $REQ_FILE"
+	python -m pip install -r "$REQ_FILE"
+elif ! command -v mkdocs >/dev/null 2>&1; then
+	echo "Requirements file $REQ_FILE not found; attempting to install mkdocs"
+	python -m pip install mkdocs
 else
 	echo "Using existing mkdocs in virtualenv"
 fi

@@ -21,7 +21,11 @@ On ths page, you will find information about changes on this website.
 
 ==}
 
-## Version 0.5.0 ![release date](https://img.shields.io/badge/release_on-07_Jan_2026-green)
+## Version 0.6.0 ![release date](https://img.shields.io/badge/release_on-09_Apr_2026-green)
+
+- Remove the Open Source section
+
+## Version 0.5.0 ![release date](https://img.shields.io/badge/release_on-07_Jan_2026-blue)
 
 - Added [Web Neko cat](https://webneko.net){target="_blank"} for the fun of it.
 
