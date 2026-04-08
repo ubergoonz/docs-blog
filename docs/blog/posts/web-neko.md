@@ -28,4 +28,12 @@ href="https://webneko.net">Neko</a></h1>
 
 What I did is add it into the `index.md` in the root directory of this website, so you can see it in action right here on this site! Feel free to explore and have fun with Web Neko!
 
+I received feedback that the cat is afftecting the navigation of the site.
+
+Just reload the site!
+
+Sorry, this site is intended to be more fun than production grade stability. I can accept the flaw and imperfections.
+Join me, in accepting and embrach the imperfection of this site, and enjoy the fun of Web Neko!
+
+
 <p hidden>#more</p>
