@@ -405,7 +405,7 @@ nav:
   - Blog:
       - blog/index.md
       - Tags: blog/tags.md
-  - Open Source:
-      - open-source/index.md
-      - Projects: open-source/projects/index.md
-      - Contributions: open-source/contributions/index.md
+#  - Open Source:
+#      - open-source/index.md
+#      - Projects: open-source/projects/index.md
+#      - Contributions: open-source/contributions/index.md
