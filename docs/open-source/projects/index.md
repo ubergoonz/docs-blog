@@ -8,5 +8,11 @@ Welcome to the Open Source Projects section! Here, we showcase various open sour
 
 ## Our Projects
 
-- [**dotfiles-mgmt**](https://github.com/ubergoonz/dotfiles-mgmt){target="_blank"}: - A simple repo with utilities to help dot files backing up to remote git repo
+### GitHub Copilot Budget Simulator 
 
+
+> GitHub Copilot Budget Simulator is a local React + TypeScript app for modeling Copilot-style budgets across an organization and its divisions.
+
+- [:material-web: Website](https://ubergoonz.github.io/ghcp-aic-budget-simulator/){ target="_blank" rel="noopener noreferrer"}
+- [:simple-github: Git Repository](https://github.com/ubergoonz/ghcp-aic-budget-simulator){ target="_blank" rel="noopener noreferrer"}
+- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT){ target="_blank" rel="noopener noreferrer"}
