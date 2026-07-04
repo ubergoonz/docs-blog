@@ -1,0 +1,59 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/packages/cspell-types/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+  "files": [
+    "docs/**/*.md",
+    "README.md"
+  ],
+  "ignorePaths": [
+    ".git/**",
+    ".venv/**",
+    "node_modules/**",
+    ".cache/**",
+    "site/**",
+    "docs/assets/**"
+  ],
+  "dictionaries": [
+    "en-us",
+    "software-terms",
+    "companies",
+    "project-words"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "project-words",
+      "path": ".cspell/project-words.txt",
+      "addWords": true
+    }
+  ],
+  "patterns": [
+    {
+      "name": "front-matter",
+      "pattern": "/^---[\\s\\S]*?^---$/m"
+    },
+    {
+      "name": "mkdocs-macros",
+      "pattern": "\\{\\{[^}]+\\}\\}"
+    },
+    {
+      "name": "mkdocs-material-icons",
+      "pattern": ":[a-z][a-z0-9-]*(?:/[a-z][a-z0-9-]*)+:"
+    }
+  ],
+  "ignoreRegExpList": [
+    "front-matter",
+    "mkdocs-macros",
+    "mkdocs-material-icons",
+    "https?://\\S+"
+  ],
+  "languageSettings": [
+    {
+      "languageId": "markdown",
+      "ignoreRegExpList": [
+        "/^---[\\s\\S]*?^---$/m",
+        "`[^`]+`"
+      ]
+    }
+  ]
+}

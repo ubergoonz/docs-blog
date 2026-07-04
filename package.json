@@ -1,0 +1,10 @@
+{
+  "name": "docs-blog",
+  "private": true,
+  "devDependencies": {
+    "cspell": "~10.0.1"
+  },
+  "scripts": {
+    "spellcheck": "cspell --config cspell.json \"docs/**/*.md\" README.md"
+  }
+}

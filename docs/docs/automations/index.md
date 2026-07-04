@@ -25,7 +25,7 @@ In this section, you will find various documentations related to `Automation`.
 
           **engineer** is a more general term that can refer to anyone who designs, builds, or maintains systems, including software engineers, hardware engineers, and systems engineers.
 
-          ==I did a carrer change from sysadmin to engineer, so I prefer to use the term engineer now.==
+          ==I did a career change from sysadmin to engineer, so I prefer to use the term engineer now.==
 
 
 <div class="grid cards" markdown>

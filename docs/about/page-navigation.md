@@ -30,8 +30,8 @@ The header row contains the following elements from left to right:
 
 The main content area contains the following elements:
 
-- **Left Side bar (Navigation)**: contains the sectiona navigation menu. It allows you to navigate through the different sections of the documentation.
-    - **Nested Menus**: Some Menu items are expandable/collapisable nested menu to provide hierarchical view of the sections and pages.
+- **Left Side bar (Navigation)**: contains the section navigation menu. It allows you to navigate through the different sections of the documentation.
+    - **Nested Menus**: Some Menu items are expandable/collapsible nested menu to provide hierarchical view of the sections and pages.
 - **Content Area**: The main content of the document, which can include text, images, code snippets, and other elements.
 - **Right Side bar (Table of Contents)**: A list of sections and subsections within the document, allowing for easy navigation.
 
@@ -39,6 +39,6 @@ The main content area contains the following elements:
 
 The footer row contains the following elements:
 
-- **Previsous and Next Buttons**: Buttons to navigate to the previous and next pages in the documentation.
+- **Previous and Next Buttons**: Buttons to navigate to the previous and next pages in the documentation.
 - **Copyright Information**: Information about the copyright of the website.
 - **Social Media Links**: Links to the social media accounts of the website.

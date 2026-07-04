@@ -1,0 +1,93 @@
+# Project-specific words for cspell
+# Add terms here that are valid but not in standard dictionaries.
+# Lines starting with # are comments. One word per line.
+
+# Site / Brand
+ubergoonz
+
+# MkDocs ecosystem
+mkdocs
+puml
+glightbox
+pymdown
+pygments
+backrefs
+jinja
+paginate
+colorama
+setuptools
+mkdocs-material
+mkdocs-macros
+
+# MkDocs Material UI terms
+admonitions
+permalink
+superfences
+tabbed
+lightbox
+toc
+frontmatter
+
+# Tech tools covered in docs
+ghostty
+starship
+nix
+openssh
+plantuml
+tmux
+vscode
+gitlab
+zsh
+
+# General tech / web
+cspell
+favicon
+changelog
+yaml
+Roboto
+JetBrains
+webneko
+giphy
+NekoType
+cdn
+repo
+
+# Python / packaging
+pip
+venv
+
+# Acronyms & abbreviations
+ai
+cli
+url
+puml
+
+# Simple Icons slugs (used in MkDocs Material icon: front matter field)
+keepachangelog
+statuspage
+materialformkdocs
+opensourceinitiative
+
+# Proper names & product names
+Neko
+Gruber
+Pacman
+IRIX
+Ultrix
+NeXTSTEP
+XTSTEP
+Netinfo
+Automations
+Ritchie
+McIlroy
+Ilroy
+
+# Documentation methodology
+Diátaxis
+
+# British English spellings
+specialising
+authorisation
+optimisation
+evangelising
+autonomics

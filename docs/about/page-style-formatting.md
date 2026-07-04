@@ -2,7 +2,7 @@
 icon: material/palette
 status: Published
 ---
-# :material-palette: Page Style and Formating
+# :material-palette: Page Style and Formatting
 
 ## Overview
 This page provides guidelines for styling and formatting content within the documentation. Consistent styling helps improve readability and user experience.

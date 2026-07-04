@@ -9,7 +9,7 @@ status: published
 
 This website exists functionally as my documentation site and for my blogging (something which I have not done for ages!)
 
-The contents are very biased on techs I like or using them heavilly.
+The contents are very biased on techs I like or using them heavily.
 
 The main intention is to document information for posterity purposes.
 

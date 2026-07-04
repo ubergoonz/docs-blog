@@ -7,34 +7,73 @@ on:
 permissions:
   contents: write
 jobs:
+  spellcheck:
+    name: Spell Check (cspell)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies (cspell)
+        run: npm ci
+
+      - name: Verify cspell version
+        run: npx cspell --version
+
+      - name: Run spell check
+        run: npm run spellcheck
+
   deploy:
+    name: Build & Deploy MkDocs
+    needs: spellcheck
     runs-on: ubuntu-latest
     env:
       GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           sparse-checkout: |
             docs
             include
             overrides
+
       - name: Configure Git Credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+
+      - name: Cache MkDocs Material
+        run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
           path: .cache 
           restore-keys: |
             mkdocs-material-
-      - run: pip install setuptools  # Ensure setuptools is installed
-      - run: pip install mkdocs-material 
-      - run: pip install -r requirements.txt
-      - run: mkdocs --version
-      - run: mkdocs gh-deploy --force -v
+
+      - name: Install Python dependencies
+        run: |
+          pip install setuptools
+          pip install mkdocs-material
+          pip install -r requirements.txt
+
+      - name: Verify MkDocs version
+        run: mkdocs --version
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force -v

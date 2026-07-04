@@ -4,7 +4,7 @@ tags:
     - materialmkdocs
 ---
 
-# :octicons-cross-reference-16: Udeful Links
+# :octicons-cross-reference-16: Useful Links
 
 ## Example sites
 

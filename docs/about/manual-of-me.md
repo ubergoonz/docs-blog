@@ -13,7 +13,7 @@ Hello, I am ubergoonz, a {--system administrator--} [{++Platform Engineering Tec
 
 - I have been in the Tech industry since 1997 with **<span id="years-experience"></span>** years of experiences.
 - While I am based in [Singapore](https://en.wikipedia.org/wiki/Singapore){:target="_blank"}, I do not follow the regular 9-to-5 work schedule. I prefer to work in the evenings and nights, which allows me to be more productive and creative during those hours and to collaborate with my coworkers and stakeholders across global timezones.
-- I am a strong advocate for [open source software](https://opensource.org/){:target="_blank"} and believe in the power of community-driven development. While you would not find active code contributions to various open source projects, I am a big fan of using them and encourage/advocate/evangalising their use in my work and personal projects.
+- I am a strong advocate for [open source software](https://opensource.org/){:target="_blank"} and believe in the power of community-driven development. While you would not find active code contributions to various open source projects, I am a big fan of using them and encourage/advocate/evangelising their use in my work and personal projects.
 
 <script>
     const start = new Date(1997, 11); // December 1997 (month is 0-indexed)
@@ -44,7 +44,7 @@ Hello, I am ubergoonz, a {--system administrator--} [{++Platform Engineering Tec
 - I alternates between working in office and remotely.
     - On days that I work in the office, I prefer to arrive late in the morning and leave in the early afternoon. This allows me to avoid peak traffic hours and have a quieter work environment.
     - On days that I work remotely, I prefer to start my workday in the late morning and continue into the evening. This allows me to take advantage of quieter hours and be more productive.
-    - With the exception on Fridays, I usually participate in meetings and collaborations till no later than 12 mindnight my local time.
+    - With the exception on Fridays, I usually participate in meetings and collaborations till no later than 12 midnight my local time.
 - I am comfortable with asynchronous communication and believe that it is essential for effective collaboration across different time zones. I use tools like email, chat, and project management software to stay connected with my team and stakeholders.
 
 ## My preferred communication style is ...

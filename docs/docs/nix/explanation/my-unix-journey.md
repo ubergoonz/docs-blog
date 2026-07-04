@@ -28,7 +28,7 @@ Thanks to the Internet, I was able to learn more about Unix and Linux, and I sta
 ## 1997 - 1999: The Beginnings 🚀
 
 > I started my Unix journey with a mix of different systems, primarily in a military simulation context.
-> The simulator systems are maded up of interconnected Unix servers, and I was introduced to the world of Unix through these systems.
+> The simulator systems are made up of interconnected Unix servers, and I was introduced to the world of Unix through these systems.
 > I learned the basics of Unix commands, shell scripting, and system administration.
 
 - **OS**: IBM AIX, Sun Microsystems SunOS 1.4.1, SGI IRIX 6.2, SysV UNIX, DEC Ultrix
